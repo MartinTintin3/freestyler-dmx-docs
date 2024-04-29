@@ -1,0 +1,104 @@
+====== Freestyler ======
+[[welcome|{{:home_3.png}}]]\\
+
+=== Software Information ===
+  * [[faq:system_questions|]]
+  * [[faq:supported_dmx_interface|List of supported DMX interfaces]]
+  * [[faq:un-official_supported_dmx_interface|List of un-official supported DMX interfaces]]
+
+=== Tool bar ===
+ 
+  *[[fixture_control:toolbar|{{:images:toolbar_01:toolbar.jpg|}}]]
+
+=== Setup ===
+  *[[Setup:setup_menu|]]
+  *[[fixtures:adding_and_removing_fixtures | Adding and removing fixtures to FreeStyler]]
+  *[[setup:setup_external_control|]]
+  *[[setup:setup_preferences|]] 
+  *[[setup:location_files|]]
+  *[[setup:backup-restore|]]
+
+  *[[setup:fixture_startup_favorite_and_shutdown_values|]]
+
+  *[[setup:setup_preferences#Extra Options|Reset to Factory defaults]]
+
+  *[[external_control|]]
+  *[[external_control:external_commands|]]
+
+=== Master Functions ===
+  *[[master_functions:blackout|Blackout]]
+  *[[master_functions:favorite_toggel|Favorite]]
+  *[[master_functions:freeze_toggel|Freeze]]
+  *[[master_functions:master_intensity|Intensity]] 
+  *[[playback:overridebuttons:override_blue_triangle|Blue triangle]]
+
+=== Fixtures control ===
+  * [[fixture_control:fixture_symbols|{{:images:fixture_symbols_fixture_01.jpg|}}]]
+  * [[fixtures:adding_and_removing_fixtures | Adding and removing fixtures to FreeStyler]]
+  * [[fixtures:fixture_selection|]]
+  * [[fixtures:fixture_selection_panel|Fixture Family selection panel]]
+  * [[fixtures:fixture_groups_create|Create Groups]]
+    * [[fixtures:Blackout_groups | Blackout Groups]]
+  * [[fixtures:Advanced_fixture_Setttings | Advanced Fixture Settings]] Popup Menu
+
+  * [[fixture_control:beam_panel|Beam Panel]]
+  * [[fixture_control:lamp_panel|Lamp Panel]]
+  * [[fixture_control:gobo_panel|Gobo Panel]]
+  * [[fixture_control:color_panel|Color Panel]]
+  * [[fixture_control:custom_control_panel|Custom Control Panel]]
+  * [[fixture_control:macro_panel|Macro Panel]]
+  * [[fixture_control:moving_panel|Pan / Tilt Panel]]
+     * [[fixture_control:fanning_panel|Fanning]]
+     * [[fixture_control:bezier_shape|Bezier Shape Panel]]
+  * [[fixture_control:framing_panel|Framing Panel]]
+  * [[fixture_control:fog_panel|Fog panel]]
+  * [[fixture_control:sliders| Right side Sliders]]
+
+  *[[fixture_control:toolbar|Toolbar]]
+
+=== Create Sequences ===
+  * [[create_sequence:sequence_creator | Using the Sequence editor]]
+    * [[create_sequence:fx | FX]]
+    *[[create_sequence:sequence_understanding|sequence understanding]]
+  * [[playback:cue_-_sequence_relation|]]
+  * [[playback:cue_list|]]
+  * [[faq:troubleshooting#Sequences| Troubleshooting]]
+  * [[create_sequence:preset|]]
+
+=== Playback ===
+  * [[playback:cue:playback_sequence| Playback a Sequence]]
+  * [[playback:cue_list|]]
+  * [[playback:cue_-_sequence_relation|]]
+  * [[playback:submasters:submaster_config|Submaster]]
+  * [[playback:overridebuttons:override_buttons|Override buttons]]
+  * [[playback:time_code|Timecode]]
+  * [[playback:dmx400 | How to use the DMX 400]]
+  * [[playback:run_command | How to use the "Run Command" feature]]
+  * [[faq:troubleshooting#Cues| Troubleshooting]]
+
+=== DMX Output ===
+  * [[output_menu|]]
+
+=== SunTriX & LedTriX plugins ===
+  * [[freestyler_plugins:suntrixandledtrix|SunTriX & LedTriX plugins]]
+  * [[freestyler_plugins:ledtrix|LedTrix: Main window]]
+  * [[freestyler_plugins:ledtrix1|LedTrix: Setup window]]
+  * [[faq:troubleshooting#SunTriX & LedTriX plugins| Troubleshooting]]
+
+=== Sound To Light ===
+  * [[sound_2_light | Using the Sound to Light Feature]]
+  * [[sound_light_interface_2| Sound to Light v 2.x]]
+  * [[faq:troubleshooting#Sound To Light| Troubleshooting]]
+
+=== Programming examples ===
+  *[[playback:tutorials:random_cue|Play Back Option - Random]]
+  *[[tutorial:cue_play_back_options:cue_option_disable_all_fades|]]
+
+  *[[tutorial:override_buttons:simple_steady_light|]]
+  *[[tutorial:complete_stage:tutorial_small_stage_playground|]]
+
+  *[[tutorial:sequences_ideas:rainbow_tutorial|]]
+  *[[tutorial:sequences_ideas:wave_tutorial|]]
+
+  *[[tutorial:sub_master_fader_workaround:how_to_use_sub_masters_for_other_controls_than_intensity|]]
+

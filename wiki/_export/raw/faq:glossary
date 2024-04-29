@@ -1,0 +1,56 @@
+====== Glossary ======
+\\
+== Cue. ==
+Is the playback control of sequence. More sequences can be played at the same time.\\
+\\
+== Cue list. ==
+Is a list that can contain up to 20 sequences that are played back in the Cue window, Cuelist buttons or Submasters.\\
+\\
+== FC: Fixture Creator ==
+Fixture Creator is a standalone program which is part of the FreeStyler installation.\\
+It is as the mane says used to create or edit fixtures that are used by FreeStyler.\\
+Fixture Creator is located in the same folder as Freestyler and are started from the desktop or the “Start” menu -> FreeStyler program folder.\\
+\\
+== FS: Freestyler ==
+\\
+== fxt file ==
+This is the raw fixture configuration files that Freestyler uses.\\
+\\
+== HTP: Highest Takes Precedence ==
+When controlling conventional lights, you normally use HTP.\\
+\\
+== LoTP: Lowest Takes Precedence ==
+Under some circumstances you can use LoTP on any type of lights for some 'special' functions.\\
+\\
+== LTP: Latest Takes Precedence ==
+When controlling intelligent lights, you normally use LTP.\\
+\\
+== Manual Overriding. ==
+This is when the manual fixture control is used though sequences are played back.\\
+[[playback:overridebuttons:override_blue_triangle|]]\\
+\\
+== Pan / Panning ==\\
+This in general the sidewise, left / right, movement of light in fixtures like Scanners and Moving heads.\\
+\\
+== pff file ==
+This is a packed fixture file and this file contain all settings,images, color and gobo images for the fixture.\\
+See: [[fixture_creator:fixture_creator_export_a_fixture|]]\\
+\\
+== Sequence. ==
+Is a number of scenes where each change in the fixture control is recorded step by step.\\
+\\
+== Sequence/Chase == 
+Sequence/Chase 
+\\
+== SM: Submaster ==
+Is the playback control for cuelist
+\\
+== Step/Scene. ==
+Step/scene
+\\
+== Tilt / Tilting ==
+This in general the up / down movement of light in fixtures like Scanners and Moving heads.\\
+\\
+\\
+----
+\\

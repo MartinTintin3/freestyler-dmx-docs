@@ -1,0 +1,108 @@
+====== Help! I'm new, Where do I start? ======
+First of all Welcome to the FreeStyler DMX wiki.\\
+\\
+I'm going to show you some Links, in the order you should read them.\\
+For a start it is good to know how to Select your DMX device, Patching Fixtures and Creating your own sequences and knowing how to play them back.\\
+\\
+==== The Basics ====
+1. Selecting the proper Interface this should be "Virtual interface" for 3d view or your own device.\\
+\\
+[[Setup:setup_menu|]]\\
+\\
+2. Add & remove fixtures.\\
+\\
+[[fixtures:adding_and_removing_fixtures | Adding and removing fixtures to FreeStyler]]\\
+\\
+3. Selecting your fixtures.\\
+\\
+[[fixtures:fixture_selection|]]\\
+\\
+4. Panel Description.\\
+\\
+This can be handy to know but I will give you 3 links that gives some useful information.(There are more links on the front page)\\
+[[fixture_control:sliders | Right side Sliders]]\\
+[[fixture_control:lamp_panel|Lamp Panel]]\\
+[[fixture_control:moving_panel|Pan / Tilt Panel]]\\
+\\
+5. Creating your own Sequences\\
+\\
+[[create_sequence:sequence_creator | Using the Sequence editor]]\\
+\\
+6. Playback a Sequence\\
+\\
+[[playback:cue:playback_sequence| Playback a Sequence]]\\
+\\
+X. DMX400\\
+DMX400 is a Stand alone Chase system - you can really easy add some Parcans or ledPars to it, this way you have your parcans or ledpars running chases in Seconds.\\
+\\
+[[playback:dmx400  | How to use the DMX 400]]\\
+\\
+\\
+----
+\\
+
+==== How do I create my own Fixtures? ====
+\\
+There is One page that answers almost all your questions, so take a look.\\
+\\
+[[Fixture Creator | How to make your own fixture files for FreeStyler]]\\
+\\
+\\
+----
+\\
+==== Advanced Programming ==== 
+\\
+with these tools you can make all kinds of effects really easily.\\
+\\
+[[create_sequence:fx| FX]] (Located in the "Create sequence" Window)\\
+[[fixture_control:bezier_shape|Bezier Shape Panel]] (Located in the "Pan/tilt" Window)\\
+[[fixture_control:fanning_panel|Fanning Panel]] (Located in the "Pan/tilt" Window)\\
+\\
+\\
+----
+\\
+==== Advanced Playback ====
+\\
+there are 4 different way's you can play back your sequences, but you can only use one system at a time.\\
+\\
+1. Cue window (Basic)\\
+\\
+[[playback:cue:playback_sequence | Playback a Sequence]]\\
+\\
+2. Time code (start a sequence on Time HH:MM:SS)\\
+\\
+[[playback:time_code|Timecode]]\\
+\\
+3. Cuelist buttons (The cuelist buttons are used to start a complete cue at once)\\
+\\
+\\
+4. Submaster (here you can Drag cue files to a select boxes, for more control of the fixtures)\\
+\\
+[[playback:submasters:submaster_config|Submaster]]\\
+\\
+X. Overide buttons (you can always use this, to start the First step of a sequence. and more)\\
+\\
+[[playback:overridebuttons:override_buttons | Programmable Override Buttons]]\\
+\\
+\\
+----
+\\
+==== Programming examples ====
+\\
+[[playback:tutorials:random_cue|Play Back Option - Random]]\\
+[[tutorial:cue_play_back_options:cue_option_disable_all_fades|]]\\
+\\
+[[tutorial:override_buttons:simple_steady_light|]]\\
+[[tutorial:complete_stage:tutorial_small_stage_playground|]]\\
+\\
+[[tutorial:sequences_ideas:rainbow_tutorial|]]\\
+[[tutorial:sequences_ideas:wave_tutorial|]]\\
+\\
+\\
+[[tutorial:sub_master_fader_workaround:how_to_use_sub_masters_for_other_controls_than_intensity|]]\\
+\\
+[[tutorial: Lights That Track|]]\\
+
+
+----
+\\

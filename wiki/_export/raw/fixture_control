@@ -1,0 +1,19 @@
+====== Fixture Control ======
+  * [[fixture_control:beam_panel|Beam Panel]]
+  * [[fixture_control:lamp_panel|Lamp Panel]]
+  * [[fixture_control:gobo_panel|Gobo Panel]]
+  * [[fixture_control:color_panel|Color Panel]]
+  * [[fixture_control:macro_panel|Macro Panel]]
+  * [[fixture_control:moving_panel|Pan / Tilt Panel]]
+  * [[fixture_control:framing_panel|Framing Panel]]
+  * [[fixture_control:bezier_shape|Bezier Shape Panel]]
+  * [[fixture_control:fog_panel|Fog panel]]
+  * [[fixture_control:sliders| Right side Sliders]]
+
+  * [[fixtures:adding_and_removing_fixtures | Adding and removing fixtures to FreeStyler]]
+  * [[fixtures:fixture_selection|]]
+  * [[fixtures:fixture_groups_create|Create Groups]]
+    * [[fixtures:Blackout_groups | Blackout Groups]]
+  * [[fixtures:Advanced_fixture_Setttings | Advanced Fixture Settings]]
+
+  *[[fixture_control:toolbar|Toolbar]]

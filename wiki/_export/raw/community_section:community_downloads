@@ -1,0 +1,68 @@
+[[http://www.freestylersupport.com/wiki|{{:fshome.jpg|}}]]
+
+====== Community Downloads Section ======
+
+
+===== Sound 2 FreeStyler DMX =====
+Sound 2 FreeStyler DMX is a tool to synchronize the speed of DMX lights to FreeStyler by the use of a MIDI sync clock. A MIDI clock from e.&nbsp;g. Traktor or a MIDI sync clock supported DJ mixer.
+[[http://sound2freestylerdmx.liveski.be/|Click here to download and more info]]
+
+
+
+
+===== LuaFs - Lua Scripting =====
+LuaFs - LuaScripting for FreeStyler
+[[https://www.dropbox.com/s/hl6ah2n3lypbivt/LuaFs02.zip|Click here to Download LuaFs 0.2]]
+
+"run on startup" option added!!!
+luafs.ini added for load/save configuration
+you can configure: initial script, stay on top option, run minimized, and run on start up
+
+===== 120DB.co.uk Addons and Android Remote - Mattotone =====
+Collections of Freestyler Addons, Android Applications and more.
+[[http://www.120db.uk|Click here to visit website]]
+
+
+===== Auto-Strobe Timer - Mattotone =====
+Simple timer for activating a strobe with set intensity and speed.
+[[http://www.freestylersupport.com/fsforum/download/file.php?id=547|Click here to Download the Auto Strobe Timer]]
+[[http://www.freestylersupport.com/fsforum/viewtopic.php?f=38&t=1695|Comments and Instructions]]
+
+===== iPhone / iPad Remote =====
+Use your iPhone and iPad to control FreeStyler
+[[https://itunes.apple.com/us/app/kmx-freestyler-remote/id1234285289?l=de&ls=1&mt=8|Click here for iPhone/iPad  Application]]
+[[https://www.youtube.com/watch?v=cKCuloP21tA]] for videos
+
+===== Sound 2 Light =====
+Light weight application that listens to the audio and does a beat detection. Every beat is passed to FreeStyler so you can run your sequences to the beat. This S2L application replaces the old SL.exe that was delivered with FreeStyler 3.1 and older. In FreeStyler 3.2 and newer this S2L application is delivered by default.
+[[http://www.digiplay.nl/fs/|Click here for the webpage and Download]] 
+[[http://www.digiplay.nl/fs/sl.history.php|Click here for the S2L history]]
+
+===== Easy Freestyler Interface =====
+Simple menu driven FreeStyler interface.
+organise your cues into a tree/folder type structure for easy playback.
+[[http://www.freestylersupport.com/fsforum/download/file.php?id=581|Click here to Download]]
+
+
+===== Theater Cue Stack - Mattotone =====
+Theater style cue stack.
+[[http://www.freestylersupport.com/fsforum/viewtopic.php?f=38&t=2787&p=11067#p11067|Instructions & Comments & Download]]
+===== Images for Fixtures - mmax =====
+[[http://www.freestylersupport.com/fsforum/viewtopic.php?f=7&t=2032|Dimmer Images]]
+[[http://www.freestylersupport.com/fsforum/viewtopic.php?f=7&t=2031|Iris Images]]
+
+
+
+===== Joystic, gamepad or arrows =====
+Joystic for FreeStyler
+Control Pan / Tilt movement, set position and get the device, adjust the speed Pan / Tilt movement, especially in the use of balls and weddings. 
+[[http://www.freestylersupport.com/fsforum/viewtopic.php?f=38&p=23394|Click here to joystick 1.0.0.2]]
+----
+----
+===== Fixture Library =====
+The complete fixture library for FreeStyler and be found in this forum thread.\\
+\\
+[[https://www.freestylersupport.com/fsforum/viewtopic.php?f=23&t=4528|Fixture Library]]
+\\
+----
+[[http://www.freestylersupport.com/wiki|{{:fshome.jpg|}}]]

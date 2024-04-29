@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <title>setup:freestyler.ini</title>
+<meta name="generator" content="DokuWiki"/>
+<meta name="theme-color" content="#008800"/>
+<meta name="robots" content="index,follow"/>
+<meta name="keywords" content="setup,freestyler.ini"/>
+<link rel="search" type="application/opensearchdescription+xml" href="../../lib/exe/opensearch.php" title="FreeStyler Wiki"/>
+<link rel="start" href="../../../wiki.html"/>
+<link rel="contents" href="https://www.freestylersupport.com/wiki/setup:freestyler.ini?do=index" title="Sitemap"/>
+<link rel="manifest" href="../../lib/exe/manifest.php"/>
+<link rel="alternate" type="application/rss+xml" title="Recent Changes" href="https://www.freestylersupport.com/wiki/feed.php"/>
+<link rel="alternate" type="application/rss+xml" title="Current namespace" href="https://www.freestylersupport.com/wiki/feed.php?mode=list&amp;ns=setup"/>
+<link rel="alternate" type="text/html" title="Plain HTML" href="./setup:freestyler.ini.html"/>
+<link rel="alternate" type="text/plain" title="Wiki Markup" href="../raw/setup:freestyler.ini"/>
+<link rel="canonical" href="../../setup:freestyler.ini.html"/>
+<link rel="stylesheet" href="../../lib/exe/css.php%3Ft=dokuwiki&amp;tseed=7559345f7bbc4b8635dd3950e56a4cd2.css"/>
+<!--[if gte IE 9]><!-->
+<script >/*<![CDATA[*/var NS='setup';var JSINFO = {"plugin_folded":{"hide":"hide","reveal":"reveal"},"ga":{"trackingId":"UA-525956-9","gtagId":"","anonymizeIp":true,"action":"export_xhtml","trackOutboundLinks":false,"options":[],"pageview":"\/wiki\/setup\/freestyler.ini","debug":true},"isadmin":0,"isauth":0,"id":"setup:freestyler.ini","namespace":"setup","ACT":"export_xhtml","useHeadingNavigation":1,"useHeadingContent":1};
+/*!]]>*/</script>
+<script src="../../lib/exe/jquery.php%3Ftseed=f0349b609f9b91a485af8fd8ecd4aea4">/*<![CDATA[*/
+/*!]]>*/</script>
+<script src="../../lib/exe/js.php%3Ft=dokuwiki&amp;tseed=7559345f7bbc4b8635dd3950e56a4cd2">/*<![CDATA[*/
+/*!]]>*/</script>
+<script type="text/javascript" src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php/en_US">/*<![CDATA[*/
+/*!]]>*/</script>
+<script type="text/javascript">/*<![CDATA[*/FB.init("9ec02de6127d88bbcc6103da6a44a6b0");
+/*!]]>*/</script>
+<!--<![endif]-->
+</head>
+<body>
+<div class="dokuwiki export">
+
+<p>
+<a href="../../setup:welcome.html" class="media" title="setup:welcome" data-wiki-id="setup:welcome"><img src="../../_media/fshome.jpg" class="media" loading="lazy" alt="" /></a>
+</p>
+
+<h1 class="sectionedit1" id="editing_the_freestylerini_file">Editing the freestyler.ini file</h1>
+<div class="level1">
+
+<p>
+FreeStyler uses the text file freestyler.ini to control some setup values. This can be edited in any text editor like Windows Notepad, or using <strong>FreeStyler configuration tool</strong>, a simple tool that allows editing the freestyler.ini using a graphical user interface.
+</p>
+
+<p>
+<a href="http://max-baeumle.de/fsconfigurationtool/setup.exe" class="urlextern" title="http://max-baeumle.de/fsconfigurationtool/setup.exe" rel="ugc nofollow">Click here to Download the FS configuration tool</a>
+</p>
+
+<p>
+<br/>
+
+Set <strong>[ResetAll]</strong> to <strong>True</strong> to make FreeStyler reset itself to all its original installation values. 
+</p>
+<pre class="code">[ResetAll]
+reset=False</pre>
+
+<p>
+<br/>
+
+Set <strong>Number=</strong> to how many scenes you would like to have (MAX) in the Sequence Window
+</p>
+<pre class="code">[NumberOfScenes]
+Number=15
+Mode=0</pre>
+
+<p>
+<br/>
+
+Set <strong>value=1</strong> if you want sound2light to act every beat, <strong>value=2</strong> every 2 beats, and so on…
+</p>
+<pre class="code">[Basscount]
+Value=1</pre>
+<pre class="code">[Recentfiles]
+remember1=
+remember1_file=
+remember2_file=
+remember3_file=
+remember4_file=
+remember2=
+remember3=
+remember4=</pre>
+<pre class="code">[RecentfilesCreator]
+remember1=
+remember1_file=
+remember2_file=
+remember2=
+remember3_file= 
+remember4_file=
+remember3= 
+remember4=  </pre>
+<pre class="code">[Colors]
+color1=16763904
+color2=2105855
+color3=12477493
+color4=16777215
+color5=16777215
+color6=15856113
+color7=2105855
+color8=61439
+color9=2549638
+color10=15498810
+Blacktheme=true
+transparancy=0
+transparancylevel=160</pre>
+<pre class="code">[MartinDMXIn]
+enable=true</pre>
+
+<p>
+For MIDI control, set Triggervalue to the value that you want to make FreeStyler respond to button pushes.
+</p>
+<pre class="code">[Midi]
+MidiIn=
+MidiInName=
+MidiOut=
+MidiOutName=
+Triggervalue=127</pre>
+<pre class="code">[Touchscreen]
+Enabled=0
+Display=1
+Keypad=0</pre>
+
+<p>
+<a href="../../setup:welcome.html" class="media" title="setup:welcome" data-wiki-id="setup:welcome"><img src="../../_media/fshome.jpg" class="media" loading="lazy" alt="" /></a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Editing the freestyler.ini file&quot;,&quot;hid&quot;:&quot;editing_the_freestylerini_file&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;31-&quot;} -->
+<!-- cachefile /var/www/vhosts/freestylersupport.com/httpdocs/wiki/data/cache/4/479cbd42365912ee200500d5d75dc0fd.xhtml used -->
+</div>
+</body>
+</html>

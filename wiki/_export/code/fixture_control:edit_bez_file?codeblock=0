@@ -1,0 +1,24 @@
+ 64  // Pan     : Position 0                       [yellow]
+ 190 // Tilt
+ 64  // Pan     : Direction vector for position 0  [Blue]
+ 150 // Tilt
+ 64  // Pan     : Direction vector for position 1  [Blue]
+ 104 // Tilt
+ 64  // Pan     : Position 1                       [Red]
+ 64  // Tilt
+ 104 // Pan     : Direction vector for position 1  [Blue]
+ 64  // Tilt
+ 150 // Pan     : Direction vector for position 2  [Blue]
+ 64  // Tilt
+ 190 // Pan     : Position 2                       [Red]
+ 64  // Tilt
+ 190 // Pan     : Direction vector for position 2  [Blue]
+ 104 // Tilt
+ 190 // Pan     : Direction vector for position 3  [Blue]
+ 150 // Tilt
+ 190 // Pan     : Position 3                       [Red]
+ 190 // Tilt  
+ 150 // Pan     : Direction vector for position 3  [Blue]
+ 190 // Tilt
+ 104 // Pan     : Direction vector for position 0  [Blue]
+ 190 // Tilt

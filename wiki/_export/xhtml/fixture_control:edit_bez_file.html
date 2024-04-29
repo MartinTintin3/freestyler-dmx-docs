@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <title>fixture_control:edit_bez_file</title>
+<meta name="generator" content="DokuWiki"/>
+<meta name="theme-color" content="#008800"/>
+<meta name="robots" content="index,follow"/>
+<meta name="keywords" content="fixture_control,edit_bez_file"/>
+<link rel="search" type="application/opensearchdescription+xml" href="../../lib/exe/opensearch.php" title="FreeStyler Wiki"/>
+<link rel="start" href="../../../wiki.html"/>
+<link rel="contents" href="https://www.freestylersupport.com/wiki/fixture_control:edit_bez_file?do=index" title="Sitemap"/>
+<link rel="manifest" href="../../lib/exe/manifest.php"/>
+<link rel="alternate" type="application/rss+xml" title="Recent Changes" href="https://www.freestylersupport.com/wiki/feed.php"/>
+<link rel="alternate" type="application/rss+xml" title="Current namespace" href="https://www.freestylersupport.com/wiki/feed.php?mode=list&amp;ns=fixture_control"/>
+<link rel="alternate" type="text/html" title="Plain HTML" href="./fixture_control:edit_bez_file.html"/>
+<link rel="alternate" type="text/plain" title="Wiki Markup" href="../raw/fixture_control:edit_bez_file"/>
+<link rel="canonical" href="../../fixture_control:edit_bez_file.html"/>
+<link rel="stylesheet" href="../../lib/exe/css.php%3Ft=dokuwiki&amp;tseed=7559345f7bbc4b8635dd3950e56a4cd2.css"/>
+<!--[if gte IE 9]><!-->
+<script >/*<![CDATA[*/var NS='fixture_control';var JSINFO = {"plugin_folded":{"hide":"hide","reveal":"reveal"},"ga":{"trackingId":"UA-525956-9","gtagId":"","anonymizeIp":true,"action":"export_xhtml","trackOutboundLinks":false,"options":[],"pageview":"\/wiki\/fixture_control\/edit_bez_file","debug":true},"isadmin":0,"isauth":0,"id":"fixture_control:edit_bez_file","namespace":"fixture_control","ACT":"export_xhtml","useHeadingNavigation":1,"useHeadingContent":1};
+/*!]]>*/</script>
+<script src="../../lib/exe/jquery.php%3Ftseed=f0349b609f9b91a485af8fd8ecd4aea4">/*<![CDATA[*/
+/*!]]>*/</script>
+<script src="../../lib/exe/js.php%3Ft=dokuwiki&amp;tseed=7559345f7bbc4b8635dd3950e56a4cd2">/*<![CDATA[*/
+/*!]]>*/</script>
+<script type="text/javascript" src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php/en_US">/*<![CDATA[*/
+/*!]]>*/</script>
+<script type="text/javascript">/*<![CDATA[*/FB.init("9ec02de6127d88bbcc6103da6a44a6b0");
+/*!]]>*/</script>
+<!--<![endif]-->
+</head>
+<body>
+<div class="dokuwiki export">
+
+<h1 class="sectionedit1" id="panel_description_-_bezier_shapes_-_edit_make_bez_files_for_beizer_shapes_in_notepad">Panel Description - Bezier Shapes - Edit/make bez files for beizer shapes in notepad</h1>
+<div class="level1">
+
+<p>
+I don&#039;t know if this having any interest but here we go.
+</p>
+
+<p>
+I have looked at the .bez files  for the shapes in FS, and have figured out how they work.
+</p>
+
+<p>
+you can open and edit the files by opening them with notepad. 
+The existing bez files is located in “…../Frestyler/Chasers” folder. remember to put yours files in that folder, otherwise FS cant find them
+</p>
+
+<p>
+(The bez files only contain the numbers, everything after the “\\” for each line is my comments)
+</p>
+<dl class="file">
+<dt><a href="../code/fixture_control:edit_bez_file%3Fcodeblock=0" title="Download Snippet" class="mediafile mf_">Example</a></dt>
+<dd><pre class="code file php"> <span class="nu0">64</span>  <span class="co1">// Pan     : Position 0                       [yellow]</span>
+ <span class="nu0">190</span> <span class="co1">// Tilt</span>
+ <span class="nu0">64</span>  <span class="co1">// Pan     : Direction vector for position 0  [Blue]</span>
+ <span class="nu0">150</span> <span class="co1">// Tilt</span>
+ <span class="nu0">64</span>  <span class="co1">// Pan     : Direction vector for position 1  [Blue]</span>
+ <span class="nu0">104</span> <span class="co1">// Tilt</span>
+ <span class="nu0">64</span>  <span class="co1">// Pan     : Position 1                       [Red]</span>
+ <span class="nu0">64</span>  <span class="co1">// Tilt</span>
+ <span class="nu0">104</span> <span class="co1">// Pan     : Direction vector for position 1  [Blue]</span>
+ <span class="nu0">64</span>  <span class="co1">// Tilt</span>
+ <span class="nu0">150</span> <span class="co1">// Pan     : Direction vector for position 2  [Blue]</span>
+ <span class="nu0">64</span>  <span class="co1">// Tilt</span>
+ <span class="nu0">190</span> <span class="co1">// Pan     : Position 2                       [Red]</span>
+ <span class="nu0">64</span>  <span class="co1">// Tilt</span>
+ <span class="nu0">190</span> <span class="co1">// Pan     : Direction vector for position 2  [Blue]</span>
+ <span class="nu0">104</span> <span class="co1">// Tilt</span>
+ <span class="nu0">190</span> <span class="co1">// Pan     : Direction vector for position 3  [Blue]</span>
+ <span class="nu0">150</span> <span class="co1">// Tilt</span>
+ <span class="nu0">190</span> <span class="co1">// Pan     : Position 3                       [Red]</span>
+ <span class="nu0">190</span> <span class="co1">// Tilt  </span>
+ <span class="nu0">150</span> <span class="co1">// Pan     : Direction vector for position 3  [Blue]</span>
+ <span class="nu0">190</span> <span class="co1">// Tilt</span>
+ <span class="nu0">104</span> <span class="co1">// Pan     : Direction vector for position 0  [Blue]</span>
+ <span class="nu0">190</span> <span class="co1">// Tilt</span></pre>
+</dd></dl>
+
+<p>
+the Yellow rectangle in the shape window is the initial point for the shape
+The blue rectangles works like a direction vector for the preceding red rectangle, which is positions
+<a href="../../_detail/images:shape_window.png%3Fid=fixture_control:edit_bez_file.html" class="media" title="images:shape_window.png"><img src="../../_media/images:shape_window.png" class="media" loading="lazy" alt="" /></a>
+</p>
+
+<p>
+the syntax in the bez file is 
+</p>
+<dl class="file">
+<dt><a href="../code/fixture_control:edit_bez_file%3Fcodeblock=1" title="Download Snippet" class="mediafile mf_">Syntax</a></dt>
+<dd><pre class="code file php"><span class="br0">&#91;</span>space<span class="br0">&#93;</span><span class="br0">&#91;</span>number<span class="br0">&#93;</span><span class="br0">&#91;</span>space<span class="br0">&#93;</span> <span class="co1">// line 1</span>
+<span class="br0">&#91;</span>space<span class="br0">&#93;</span><span class="br0">&#91;</span>number<span class="br0">&#93;</span><span class="br0">&#91;</span>space<span class="br0">&#93;</span> <span class="co1">// line 2</span>
+<span class="sy0">.</span>
+<span class="sy0">.</span>
+<span class="br0">&#91;</span>space<span class="br0">&#93;</span><span class="br0">&#91;</span>number<span class="br0">&#93;</span><span class="br0">&#91;</span>space<span class="br0">&#93;</span> <span class="co1">// line 24</span>
+<span class="br0">&#91;</span>space<span class="br0">&#93;</span></pre>
+</dd></dl>
+
+<p>
+I have tried making a bez file without the spaces and it worked in FS, but just in case I would recommend you use the mentioned syntax 
+</p>
+
+<p>
+I have used it to make straight vertical and horizontal movements for my scanners. Sometimes it is easier to edit the bez files instead of doing it in the shape window.
+</p>
+
+</div>
+
+<!-- cachefile /var/www/vhosts/freestylersupport.com/httpdocs/wiki/data/cache/8/84a9402ce1d9abb49987a241ec308eb5.xhtml used -->
+</div>
+</body>
+</html>

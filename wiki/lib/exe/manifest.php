@@ -1,0 +1,1 @@
+{"display":"standalone","scope":"\/wiki\/","name":"FreeStyler Wiki","short_name":"FreeStyler Wiki","description":"","start_url":"\/wiki\/","background_color":"#fff","theme_color":"#008800","icons":[{"src":"https:\/\/www.freestylersupport.com\/wiki\/_media\/wiki:dokuwiki.svg","sizes":"17x17 512x512","type":"image\/svg+xml"}]}

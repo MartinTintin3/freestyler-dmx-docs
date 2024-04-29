@@ -1,0 +1,18 @@
+
+
+
+
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8" ?><OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>MantisBT Id</ShortName>
+	<Description>MantisBT: search by Issue Id</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<Image width="16" height="16" type="image/x-icon">https://www.freestylersupport.com/bugs/images/favicon.ico</Image>
+	<Url type="text/html" method="GET" template="https://www.freestylersupport.com/bugs/view.php?id={searchTerms}"></Url>';
+	<moz:SearchForm>https://www.freestylersupport.com/bugs/view_all_bug_page.php</moz:SearchForm>
+</OpenSearchDescription>

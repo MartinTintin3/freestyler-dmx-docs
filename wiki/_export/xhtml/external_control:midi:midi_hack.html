@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <title>external_control:midi:midi_hack</title>
+<meta name="generator" content="DokuWiki"/>
+<meta name="theme-color" content="#008800"/>
+<meta name="robots" content="index,follow"/>
+<meta name="keywords" content="external_control,midi,midi_hack"/>
+<link rel="search" type="application/opensearchdescription+xml" href="../../lib/exe/opensearch.php" title="FreeStyler Wiki"/>
+<link rel="start" href="../../../wiki.html"/>
+<link rel="contents" href="https://www.freestylersupport.com/wiki/external_control:midi:midi_hack?do=index" title="Sitemap"/>
+<link rel="manifest" href="../../lib/exe/manifest.php"/>
+<link rel="alternate" type="application/rss+xml" title="Recent Changes" href="https://www.freestylersupport.com/wiki/feed.php"/>
+<link rel="alternate" type="application/rss+xml" title="Current namespace" href="https://www.freestylersupport.com/wiki/feed.php?mode=list&amp;ns=external_control:midi"/>
+<link rel="alternate" type="text/html" title="Plain HTML" href="./external_control:midi:midi_hack.html"/>
+<link rel="alternate" type="text/plain" title="Wiki Markup" href="../raw/external_control:midi:midi_hack"/>
+<link rel="canonical" href="../../external_control:midi:midi_hack.html"/>
+<link rel="stylesheet" href="../../lib/exe/css.php%3Ft=dokuwiki&amp;tseed=7559345f7bbc4b8635dd3950e56a4cd2.css"/>
+<!--[if gte IE 9]><!-->
+<script >/*<![CDATA[*/var NS='external_control:midi';var JSINFO = {"plugin_folded":{"hide":"hide","reveal":"reveal"},"ga":{"trackingId":"UA-525956-9","gtagId":"","anonymizeIp":true,"action":"export_xhtml","trackOutboundLinks":false,"options":[],"pageview":"\/wiki\/external_control\/midi\/midi_hack","debug":true},"isadmin":0,"isauth":0,"id":"external_control:midi:midi_hack","namespace":"external_control:midi","ACT":"export_xhtml","useHeadingNavigation":1,"useHeadingContent":1};
+/*!]]>*/</script>
+<script src="../../lib/exe/jquery.php%3Ftseed=f0349b609f9b91a485af8fd8ecd4aea4">/*<![CDATA[*/
+/*!]]>*/</script>
+<script src="../../lib/exe/js.php%3Ft=dokuwiki&amp;tseed=7559345f7bbc4b8635dd3950e56a4cd2">/*<![CDATA[*/
+/*!]]>*/</script>
+<script type="text/javascript" src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php/en_US">/*<![CDATA[*/
+/*!]]>*/</script>
+<script type="text/javascript">/*<![CDATA[*/FB.init("9ec02de6127d88bbcc6103da6a44a6b0");
+/*!]]>*/</script>
+<!--<![endif]-->
+</head>
+<body>
+<div class="dokuwiki export">
+
+<h1 class="sectionedit1" id="midi_hack">Midi hack</h1>
+<div class="level1">
+
+<p>
+okay, I got it working like this:
+</p>
+<ul>
+<li class="level1"><div class="li"> when I press “button 1” on my nanokontrol, I can control seq speed 1-5 on encoder 1-5 and submaster 1-5 on fader and the two buttons on 1-5</div>
+</li>
+<li class="level1"><div class="li"> when I press “button 2” on my nanokontrol, I can control seq speed 6-10 on encoder 1-5 and submaster 1-5 on fader and the two buttons on 1-5</div>
+</li>
+<li class="level1"><div class="li"> when I press “button 3” on my nanokontrol, I can control seq speed 11-15 on encoder 1-5 and submaster 1-5 on fader and the two buttons on 1-5</div>
+</li>
+<li class="level1"><div class="li"> when I press “button 4” on my nanokontrol, I can control seq speed 16-20 on encoder 1-5 and submaster 1-5 on fader and the two buttons on 1-5</div>
+</li>
+</ul>
+
+<p>
+Just like we want it :D but it was really complex to get it to work and it takes a bit of explanation to tell you guys how I did it,
+</p>
+
+<p>
+You need to use the program change note. if MIDI-OX recieves this, it can call different mappings. this way you can map the encoders to match the submaster page.
+</p>
+
+<p>
+unfortunately the nanocontrol can&#039;t send out program change notes, but the BCF can, so it is much easier to set it up on that controller.
+</p>
+<hr />
+
+<p>
+READ THIS IF YOU USE A NANOKONTROL OR ANY OTHER MIDI CONTROLLER WHICH CAN&#039;T SEND OUT PROGRAM CHANGE NOTES:: IF IT CAN (like the BCF2000) SKIP THIS.
+</p>
+
+<p>
+If you use the Korg nanokontrol you have to open an extra MIDI-OX where the MIDI from the naonkontrol enters before the second MIDI-OX. remember to set both MIDI-OX programs up so that the signal goes through these two before it enters FS.
+Here you have to make one mapping:
+submaster page buttons 1-4 (value 1) when the value2 is 127–&gt; set it to send out program change notes 1-4
+Make sure you set a checkmark at “Pass Original Value on (Clone)”.
+</p>
+<hr />
+
+<p>
+FOR ALL MIDI CONTROLLERS:
+</p>
+
+<p>
+1) with the BCedit program you have to change the 4 buttons (you cant use next and prev submaster page for this trick) to send out program change 1-4.
+2) in MIDI-OX you have to make 4 filters with 1-2 mappings each
+</p>
+
+<p>
+Filter 1
+Mapping 1:
+program change 1-4 –&gt; control change 1-4
+</p>
+
+<p>
+Lets save the filter as “filter 1” for this tutorial
+</p>
+
+<p>
+Filter 2
+Mapping 1:
+program change 1-4 –&gt; control change 1-4
+Mapping 2:
+The control change numbers for the 5 encoders/fader you want to use as speed (lets say number 1-5 to simplify this tutorial) –&gt; set the control change number to 6-10
+</p>
+
+<p>
+Save the filter as “filter 2”
+</p>
+
+<p>
+Filter 3
+Mapping 1:
+program change 1-4 –&gt; control change 1-4
+Mapping 2:
+The control change numbers for the 5 encoders/fader you want to use as speed (lets say number 1-5 to simplify this tutorial) –&gt; set the control change number to 11-15
+</p>
+
+<p>
+Save the filter as “filter 3”
+</p>
+
+<p>
+Filter 4
+Mapping 1:
+program change 1-4 –&gt; control change 1-4
+Mapping 2:
+The control change numbers for the 5 encoders/fader you want to use as speed (lets say number 1-5 to simplify this tutorial) –&gt; set the control change number to 16-20
+</p>
+
+<p>
+Save the filter as “filter 4”
+</p>
+
+<p>
+3) go to “Options –&gt; patch mapping” in MIDI-OX main window
+4) press assign and find the filter files you have saved:
+number 1: Filter 1
+number 2: Filter 2
+number 3: Filter 3
+number 4: Filter 4
+</p>
+
+<p>
+now it should work
+</p>
+<hr />
+
+</div>
+
+<!-- cachefile /var/www/vhosts/freestylersupport.com/httpdocs/wiki/data/cache/2/25d1273822918c8c85d52bb1509acb8a.xhtml used -->
+</div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+====== Midi hack ======
+
+okay, I got it working like this:
+  * when I press "button 1" on my nanokontrol, I can control seq speed 1-5 on encoder 1-5 and submaster 1-5 on fader and the two buttons on 1-5
+  * when I press "button 2" on my nanokontrol, I can control seq speed 6-10 on encoder 1-5 and submaster 1-5 on fader and the two buttons on 1-5
+  * when I press "button 3" on my nanokontrol, I can control seq speed 11-15 on encoder 1-5 and submaster 1-5 on fader and the two buttons on 1-5
+  * when I press "button 4" on my nanokontrol, I can control seq speed 16-20 on encoder 1-5 and submaster 1-5 on fader and the two buttons on 1-5
+
+Just like we want it :D but it was really complex to get it to work and it takes a bit of explanation to tell you guys how I did it,
+
+You need to use the program change note. if MIDI-OX recieves this, it can call different mappings. this way you can map the encoders to match the submaster page.
+
+unfortunately the nanocontrol can't send out program change notes, but the BCF can, so it is much easier to set it up on that controller.
+
+-------
+READ THIS IF YOU USE A NANOKONTROL OR ANY OTHER MIDI CONTROLLER WHICH CAN'T SEND OUT PROGRAM CHANGE NOTES:: IF IT CAN (like the BCF2000) SKIP THIS.
+
+If you use the Korg nanokontrol you have to open an extra MIDI-OX where the MIDI from the naonkontrol enters before the second MIDI-OX. remember to set both MIDI-OX programs up so that the signal goes through these two before it enters FS.
+Here you have to make one mapping:
+submaster page buttons 1-4 (value 1) when the value2 is 127--> set it to send out program change notes 1-4
+Make sure you set a checkmark at "Pass Original Value on (Clone)".
+-------
+
+
+FOR ALL MIDI CONTROLLERS:
+
+1) with the BCedit program you have to change the 4 buttons (you cant use next and prev submaster page for this trick) to send out program change 1-4.
+2) in MIDI-OX you have to make 4 filters with 1-2 mappings each
+
+Filter 1
+Mapping 1:
+program change 1-4 --> control change 1-4
+
+Lets save the filter as "filter 1" for this tutorial
+
+Filter 2
+Mapping 1:
+program change 1-4 --> control change 1-4
+Mapping 2:
+The control change numbers for the 5 encoders/fader you want to use as speed (lets say number 1-5 to simplify this tutorial) --> set the control change number to 6-10
+
+Save the filter as "filter 2"
+
+Filter 3
+Mapping 1:
+program change 1-4 --> control change 1-4
+Mapping 2:
+The control change numbers for the 5 encoders/fader you want to use as speed (lets say number 1-5 to simplify this tutorial) --> set the control change number to 11-15
+
+Save the filter as "filter 3"
+
+Filter 4
+Mapping 1:
+program change 1-4 --> control change 1-4
+Mapping 2:
+The control change numbers for the 5 encoders/fader you want to use as speed (lets say number 1-5 to simplify this tutorial) --> set the control change number to 16-20
+
+Save the filter as "filter 4"
+
+3) go to "Options --> patch mapping" in MIDI-OX main window
+4) press assign and find the filter files you have saved:
+number 1: Filter 1
+number 2: Filter 2
+number 3: Filter 3
+number 4: Filter 4
+
+now it should work
+-------

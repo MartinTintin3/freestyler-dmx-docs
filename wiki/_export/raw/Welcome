@@ -1,0 +1,72 @@
+====== Welcome to the FreeStyler Wiki ======
+{{ home_3.png }}
+<menu col=1,align=left>
+  <item>FreeStyler|Everything about FS|[[freestyler]]|{{fs_logo.gif}}</item>
+  <item>Fixture Creator|Everything about FC|[[Fixture Creator]]|{{fc_logo.gif}}</item>  
+  <item>DMX 512 Protocol|Everything to know about DMX 512|[[dmx basics]]|{{dmxcircuit.jpg}}</item>
+</menu>
+<menu col=1,align=left>
+  <item>FreeStyler Tutorial|The first lessons for FS|[[help im new]]|{{fs_tut_logo.gif}}</item>
+  <item>Fixture Creator Tutorial|The first lessons for FC|[[fixture creator help]]|{{fc_tut_logo.gif}}</item>
+  <item>External Control|External control (wings, MIDI…) that can be used with FreeStyler|[[external control]]|{{enttecwing.jpg}}</item>
+</menu>
+
+-----
+
+This Wiki is the online version of the FreeStyler (FS) manual and will be updated to keep current with all the changes that are happening to FreeStyler all the time…
+
+**This Wiki is maintained by FreeStyler forum members**\\
+If you are registered on the FS forum then you're encouraged to edit the Wiki. If you want to make a page for a subject not listed here, please feel free!\\
+[[http://freestylersupport.com/fsforum | Go to the FreeStyler Support Forum]]\\
+[[http://www.freestylersupport.com/fsforum/viewforum.php?f=88|Give us some feedback]]\\
+
+~~NOTOC~~
+
+----
+===== Freestyler DMX for Beginners =====
+  * [[Help_im_new|Help! I have never used FreeStyler. Where do I Start?]]
+  * [[faq:what_is_freestyler|What is FreeStyler?]]
+
+===== FreeStyler General =====
+=== ===
+  * [[faq:freestyler_faq|FreeStyler FAQ]]
+  * [[faq:troubleshooting|]]
+  * [[faq:Glossary|Glossary]]
+  * [[**About the Developer!**]]
+  * [[what_s_new|FreeStyler Version History]]
+  * [[community_section:community_downloads|Community Downloads!]]\\
+  * [[we_use_freestyler dmx|We Use FreeStyler DMX - A list of our users, their websites and their countries!]]\\
+  * [[http://www.freestylersupport.com/fsforum|FreeStyler Support Forum]]
+  * [[http://www.freestylersupport.com/bugs|Freestyler Bug Tracker - Report issues here]]
+  * [[FsBT|How to use FreeStyler Bug Tracker]]
+
+===== FreeStyler Addons =====
+
+   * [[http://www.120db.uk|120db.uk Popular Freestyler Add-on's]]
+
+=== Installing and using the TouchOSC App ===
+
+  * [[external_control:remote_control_wifi:Touchosc|TouchOSC]]
+
+=== Magic 3D Easy View & Scanlibrary ===
+  * [[magic_3d_easy_view:what_is_3d_easy_view|What is Magic 3D Easy View?]]
+  * [[magic_3d_easy_view:Installation|Installation]]
+  * [[magic_3d_easy_view:using_magic_3d_easy_view_management|Using Magic 3D Easy View]]
+  * [[magic_3d_easy_view:using_scanlibrary|Using Scanlibrary]]
+
+===== FreeStyler Tips and Tricks =====
+=== ===
+  * [[setup:freestyler.ini | Editing the freestyler.ini]]
+  * [[fixture_control:edit_bez_file | Editing/making shape files for FreeStyler in Notepad]]
+  * [[create_sequence:sequence_understanding | Understanding the Sequence files (*.chb)]]
+  * [[external_control:midi:midi_hack | MIDI Hack: get the sequences speed encoders to align the submaster pages]]
+
+===== Current Contents =====
+
+{{indexmenu>..#1|js navbar nocookie}}
+
+\\  
+**We encourage people to edit other people's pages if they think they can help.**
+
+**We also strongly recommend that you use screen shots to explain what you're referring to!**
+

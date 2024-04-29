@@ -1,0 +1,71 @@
+===== Fixture Creator Help =====
+\\
+\\
+So far these tutorials have been created for the Fixture Creator\\
+\\
+First of all you need to learn how your Fixture works.\\
+This can be done by the PDF/manual or Just to play with your Fixture.\\
+\\
+Now if you know how your Fixture works you can Create you Fixture file.\\
+\\
+Some basic info 
+  * [[fixture_creator:pictures_and_icons|Fixture Creator - Pictures and Icons]]
+  * [[fixture_creator:file_name_convention|Fixture Creator - File name Convention]]
+  * [[fixture_creator:how_to_organize_your_fixture_files|Fixture Creator - How to organize your fixture files]]
+  * [[fixture_creator:fixture_creator_export_a_fixture|]]
+\\
+  * [[fixture_creator:before_making_a_fixture|]]
+  * [[fixture_creator:if_i_dont_have_the_dmx_table|]]
+\\
+  * [[fixture_creator:tutorial:fixture_creator_tutorial_middle_value|]]
+\\
+----
+\\
+For Movingheads Follow these Tutorials.\\
+   * [[fixture_creator:tutorial:moving_head|Fixture Creator - Moving Head Tutorial]]
+\\
+For Ledpars Follow these Tutorials.\\
+  * [[fixture_creator:tutorial:led_bars|Fixture Creator - LED Bars Tutorial]]
+  * [[fixture_creator:tutorial:led_parcan|Fixture Creator - LED Parcan Tutorial]]
+  * [[fixture_creator:tutorial:led_segment_tutorial:segment_tutorial|]]
+\\
+For Parcans/Dimmer/Switchpacks Follow these Tutorials.\\
+  * [[fixture_creator:tutorial:par_cans_dimmers|Fixture Creator - Par Cans, Dimmer Packs, Switch Pack Tutorial]]
+  * [[fixture_creator:tutorial:dimmer|]]
+  * [[fixture_creator:tutorial:switchpack_tutorial|]]
+\\
+For Fog machines Follow these Tutorials.\\
+  * [[fixture_creator:tutorial:fogger_tutorial|]]
+\\
+\\
+For more complex fixtures that are controled by more fixturs in combination.
+  * [[fixture_creator:combined_fixtures|Fixture Creator - Combined Fixtures]]
+  * [[fixture_creator:tutorial:center_effect|Fixture Creator - Center effect Tutorial]]
+\\
+For parameter / functions that can be used in Fixture Creator
+  * [[fixture_creator:fixture_showin_formula|Fixture Creator - The new "Show In" and "Formula" features]]
+  * [[fixture_creator:tutorial:fixture_showin_formula_applications|Fixture Creator - Practical Applications in Formula]]
+  * [[fixture_creator:tutorial:formula:using_the_formula|Fixture Creator - Using the formula]]
+\\
+Others\\
+Tutorials that requires that reader is familiar with the Fixture Creator basics.\\
+Some fixtures don't fit any of the standard controls and in such case a bit of creativity are needed.\\
+The fixtures bellow have a bit of this creativity.\\
+\\
+  * [[fixture_creator:tutorial:laser_tutorial:tutorial_laser_laserworld_rs_200g|Fixture Creator - LaserWorld RS-200G ]]
+  * [[fixture_creator:tutorial:switch_fixture_with_indicator|]]
+  * [[fixture_creator:tutorial:multicolorcontrol:multicolor_control_tutorial|]]
+\\
+\\
+\\
+\\
+More Tutorials will follow.\\
+\\
+\\
+----
+\\
+And for more info about Fixture creator look at this page:
+  * [[fixture_creator]]
+\\
+----
+\\

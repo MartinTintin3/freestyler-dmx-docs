@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <title>faq:troubleshooting</title>
+<meta name="generator" content="DokuWiki"/>
+<meta name="theme-color" content="#008800"/>
+<meta name="robots" content="index,follow"/>
+<meta name="keywords" content="faq,troubleshooting"/>
+<link rel="search" type="application/opensearchdescription+xml" href="../../lib/exe/opensearch.php" title="FreeStyler Wiki"/>
+<link rel="start" href="../../../wiki.html"/>
+<link rel="contents" href="https://www.freestylersupport.com/wiki/faq:troubleshooting?do=index" title="Sitemap"/>
+<link rel="manifest" href="../../lib/exe/manifest.php"/>
+<link rel="alternate" type="application/rss+xml" title="Recent Changes" href="https://www.freestylersupport.com/wiki/feed.php"/>
+<link rel="alternate" type="application/rss+xml" title="Current namespace" href="https://www.freestylersupport.com/wiki/feed.php?mode=list&amp;ns=faq"/>
+<link rel="alternate" type="text/html" title="Plain HTML" href="./faq:troubleshooting.html"/>
+<link rel="alternate" type="text/plain" title="Wiki Markup" href="../raw/faq:troubleshooting"/>
+<link rel="canonical" href="../../faq:troubleshooting.html"/>
+<link rel="stylesheet" href="../../lib/exe/css.php%3Ft=dokuwiki&amp;tseed=7559345f7bbc4b8635dd3950e56a4cd2.css"/>
+<!--[if gte IE 9]><!-->
+<script >/*<![CDATA[*/var NS='faq';var JSINFO = {"plugin_folded":{"hide":"hide","reveal":"reveal"},"ga":{"trackingId":"UA-525956-9","gtagId":"","anonymizeIp":true,"action":"export_xhtml","trackOutboundLinks":false,"options":[],"pageview":"\/wiki\/faq\/troubleshooting","debug":true},"isadmin":0,"isauth":0,"id":"faq:troubleshooting","namespace":"faq","ACT":"export_xhtml","useHeadingNavigation":1,"useHeadingContent":1};
+/*!]]>*/</script>
+<script src="../../lib/exe/jquery.php%3Ftseed=f0349b609f9b91a485af8fd8ecd4aea4">/*<![CDATA[*/
+/*!]]>*/</script>
+<script src="../../lib/exe/js.php%3Ft=dokuwiki&amp;tseed=7559345f7bbc4b8635dd3950e56a4cd2">/*<![CDATA[*/
+/*!]]>*/</script>
+<script type="text/javascript" src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php/en_US">/*<![CDATA[*/
+/*!]]>*/</script>
+<script type="text/javascript">/*<![CDATA[*/FB.init("9ec02de6127d88bbcc6103da6a44a6b0");
+/*!]]>*/</script>
+<!--<![endif]-->
+</head>
+<body>
+<div class="dokuwiki export">
+<!-- TOC START -->
+<div id="dw__toc" class="dw__toc">
+<h3 class="toggle">Table of Contents</h3>
+<div>
+
+<ul class="toc">
+<li class="level1"><div class="li"><a href="./faq:troubleshooting.html#troubleshooting">Troubleshooting</a></div>
+<ul class="toc">
+<li class="clear">
+<ul class="toc">
+<li class="level3"><div class="li"><a href="./faq:troubleshooting.html#freestyler_features">Freestyler Features</a></div></li>
+<li class="level3"><div class="li"><a href="./faq:troubleshooting.html#freestyler_addons">Freestyler Addons</a></div></li>
+<li class="level3"><div class="li"><a href="./faq:troubleshooting.html#dmx">DMX</a></div></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<!-- TOC END -->
+
+<h1 class="sectionedit1" id="troubleshooting">Troubleshooting</h1>
+<div class="level1">
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Troubleshooting&quot;,&quot;hid&quot;:&quot;troubleshooting&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;1-31&quot;} -->
+<h3 class="sectionedit2" id="freestyler_features">Freestyler Features</h3>
+<div class="level3">
+<div class="plugin_note noteclassic"><strong>Errors</strong><br/>
+
+<p>
+As FreeStyler is a live program under continuous development there may from time to time be errors that look like a dead end.<br/>
+
+<br/>
+
+The only way to track these errors down is to figure out what functionality is creating this error.<br/>
+
+<br/>
+
+This is easy to say but can be difficult to track.<br/>
+
+<br/>
+
+It may be something where all external controls are to be disabled, the location are deleted and created with new fixtures that are not the same as when the error occurred.<br/>
+
+<br/>
+
+New installation of Freestyler.<br/>
+
+<br/>
+
+And the error is still there.<br/>
+
+<br/>
+
+There are a few more things to try.<br/>
+
+ <br/>
+
+FreeStyler has, as with many other programs, a way to reset all parameters.<br/>
+
+In the freestyler.ini file in the “FreeStyler” folder there is a [ResetAll] parameter. <br/>
+
+reset = false. Try change this to reset =  true.<br/>
+
+<br/>
+
+Restart FreeStyler.<br/>
+
+<br/>
+
+And finally try to delete freestyler in the registration data base.<br/>
+
+“\HKEY_CURRENT_USERS\Software\VB and VBA Program settings \Freestyler”<br/>
+
+<br/>
+
+Be careful when you are in the registration database. You may destroy things you don’t want to destroy and then have to reinstall the whole PC again.<br/>
+
+</p>
+
+</div><div class="plugin_note noteclassic"><strong>When Freestyler crashes.</strong><br/>
+
+<br/>
+
+When FreeStyler crashes and it is due to user action like opening a panel, entering a parameter or so, it is quite easy to detect, replicate and raise a bug report.<br/>
+
+If it is a crash that just appears by itself without any action from the user it is a bit more difficult to detect.<br/>
+
+<br/>
+
+Here is a small test that may help to detect if it is the program or the driver that is failing.<br/>
+
+Set the interface to “Virtual Interface” and start FreeStyler again.<br/>
+
+ When FreeStyler runs with “Virtual Interface” all functionality is the same and it is communicating with a software interface. If it doesn’t fail then the problem is related to the USB-DMX driver.<br/>
+
+It will then be a good idea to check that the latest driver is installed, or reinstall the driver.<br/>
+
+If it is a dongle based on the FTDI chipset then “Enttec” have a FTClean program that removes the driver: <br/>
+
+<a href="http://www.enttec.com/dmx_usb/FTClean.zip" class="urlextern" title="http://www.enttec.com/dmx_usb/FTClean.zip" rel="ugc nofollow">http://www.enttec.com/dmx_usb/FTClean.zip</a><br/>
+
+The latest driver can be found on FTDIchip&#039;s web site:<br/>
+
+<a href="http://www.ftdichip.com/Drivers/D2XX.htm" class="urlextern" title="http://www.ftdichip.com/Drivers/D2XX.htm" rel="ugc nofollow">http://www.ftdichip.com/Drivers/D2XX.htm</a><br/>
+
+<br/>
+
+<strong>NOTE:</strong> At the moment I am not aware of other drivers so if you have any knowledge of these please edit this note. <br/>
+
+<br/>
+
+
+</div><div class="plugin_note noteclassic"><strong>USB Selective suspend</strong><br/>
+
+<br/>
+
+There have been some issues where FreeStyler has stopped sending DMX output.<br/>
+
+It has been appearing in various shapes where also FreeStyler has crashed. Sometimes it has been sufficient just to close the program but the error comes again. Other times it has been impossible to close the program so it had to be ended via the job list. Other times it has even been necessary to force a power down of the PC to end the program.<br/>
+
+One thing that we have detected is that disabling “USB selective suspend” removes this error.<br/>
+
+<br/>
+
+This option will cut all communication to USB devices after some time to save power and is therefore to be disabled.<br/>
+
+<a href="../../faq:troubleshooting_sub_pages:usb_selective_suspend.html" class="wikilink1" title="faq:troubleshooting_sub_pages:usb_selective_suspend" data-wiki-id="faq:troubleshooting_sub_pages:usb_selective_suspend">USB Selective suspend</a><br/>
+
+</div><div class="plugin_note noteclassic"><strong>Forgotten password.</strong><br/>
+
+If the password has been forgotten, there is only one way to fix it and that is in the registration data base.<br/>
+
+<br/>
+
+It can be found in Windows under Start → Run → “RegEdit”<br/>
+
+ “\HKEY_CURRENT_USERS\Software\VB and VBA Program settings \Freestyler \Settings”<br/>
+
+There is a “Password” label and you can see what the password is.<br/>
+
+<br/>
+
+
+</div>
+</div>
+
+<h4 id="groups">Groups</h4>
+<div class="level4">
+
+</div>
+
+<h4 id="functions">Functions</h4>
+<div class="level4">
+<div class="plugin_note noteclassic"><strong>Some fixtures don&#039;t Blackout.</strong><br/>
+
+ - This can happen because the Shutter CH isn&#039;t set correctly, so to solve this you have to set the Shutter CH correctly using the Fixture Creator.<br/>
+
+ <a href="../../fixture_creator:lamp_configuration.html" class="wikilink1" title="fixture_creator:lamp_configuration" data-wiki-id="fixture_creator:lamp_configuration">Fixture Creator - Lamp Configuration</a><br/>
+
+
+</div><div class="plugin_note noteclassic"><strong>No “OFF” button for Strobe.</strong><br/>
+
+Strobe is stopped by using the Shutter “Open” or “Closed” Button.<br/>
+
+<a href="../../fixture_control:lamp_panel.html" class="wikilink1" title="fixture_control:lamp_panel" data-wiki-id="fixture_control:lamp_panel">Lamp Panel description</a><br/>
+
+
+</div><div class="plugin_note noteclassic"><strong>Red X icons in the fixture control panels.</strong><br/>
+
+This indicates that no image is attached to this DMX value in the DMX tables.<br/>
+
+See: <a href="../../fixture_creator:gobo_configuration.html" class="wikilink1" title="fixture_creator:gobo_configuration" data-wiki-id="fixture_creator:gobo_configuration">Gobo Configuration</a>. The description of Gobo wheel 3<br/>
+
+
+</div><div class="plugin_note noteclassic"><strong>The Blue Ball doesn’t move in the movement panel.</strong><br/>
+
+When running Shape the blue ball doesn’t move. However, when monitoring the DMX output for Pan and Tilt it can be seen that these values change with the shape.<br/>
+
+The update of the blue ball position was removed because of some error issues.<br/>
+
+
+</div><div class="plugin_note noteclassic"><strong> “Flip” doesn&#039;t bring the beam to the correct position</strong><br/>
+
+Flip should flip the fixture but keep the beam at the same point.<br/>
+
+If the “Range” value is not defined or wrong then the beam will be moved after a flip.<br/>
+
+See: <a href="../../fixture_creator:movement_configuration.html" class="wikilink1" title="fixture_creator:movement_configuration" data-wiki-id="fixture_creator:movement_configuration">Fixture Creator - Movement configuration</a><br/>
+
+
+</div><div class="plugin_note noteclassic"><strong>Color wheel / Color Palette only has a few color icons.</strong><br/>
+
+If “Use global colors” under “Setup” is checked on then the color palette is reduced to a few icons instead of a full color selection field.<br/>
+
+
+</div><div class="plugin_note noteclassic"><strong>Lamp Panel is not present</strong><br/>
+
+See Fixture Creator section on this page.<br/>
+
+
+</div>
+</div>
+
+<h4 id="cues">Cues</h4>
+<div class="level4">
+<div class="plugin_note noteclassic"><strong>Cues turn each other off.</strong><br/>
+
+When more cues are to run at the same time “Cue Multiselect always enable” is to be set on.<br/>
+
+Link to multi cue.<a href="../../faq:missing_please_enter_when_topic_is_made.html" class="wikilink2" title="faq:missing_please_enter_when_topic_is_made" rel="nofollow" data-wiki-id="faq:missing_please_enter_when_topic_is_made">missing please enter when topic is made</a><br/>
+
+Note “Cue Go to previous value always enable” - this restores the values when a cue is stopped.<br/>
+
+Additionally, note that the sequences are to be made as Transparent (Transparent Mode).<br/>
+
+Link to Seq .<a href="../../faq:missing_please_enter_when_topic_is_made.html" class="wikilink2" title="faq:missing_please_enter_when_topic_is_made" rel="nofollow" data-wiki-id="faq:missing_please_enter_when_topic_is_made">missing please enter when topic is made</a><br/>
+
+
+</div><div class="plugin_note noteclassic"><strong>Override button doesn’t override.</strong><br/>
+
+Manual override on the fixtures has highest priority. This means that the override buttons don’t work if there is a manual override on the channel.<br/>
+
+It is possible to change this by setting the overriding buttons to highest priority.<br/>
+
+See <a href="../../playback:overridebuttons:override_buttons.html" class="wikilink1" title="playback:overridebuttons:override_buttons" data-wiki-id="playback:overridebuttons:override_buttons">Override buttons</a>, <a href="../../playback:overridebuttons:override_blue_triangle.html" class="wikilink1" title="playback:overridebuttons:override_blue_triangle" data-wiki-id="playback:overridebuttons:override_blue_triangle">Blue triangle</a><br/>
+
+
+</div><div class="plugin_note noteclassic"><strong>Shape movement stops when cues are turned on.</strong><br/>
+
+It is important to note that the shape movement is not a stand-alone movement generator.<br/>
+
+Shapes have to be added in a sequence and then into the cue like everything else.<br/>
+
+If the shape is not in a cue, it will be turned off when the new cue is started.<br/>
+
+Link Add Shape on Sequence. <a href="../../tutorial:complete_stage:bezier_tutorial:bezier_shape_tutorial.html" class="wikilink1" title="tutorial:complete_stage:bezier_tutorial:bezier_shape_tutorial" data-wiki-id="tutorial:complete_stage:bezier_tutorial:bezier_shape_tutorial">Bezier Shape tutorial.</a><br/>
+
+
+</div>
+</div>
+
+<h4 id="sequences">Sequences</h4>
+<div class="level4">
+<div class="plugin_note noteclassic"><strong>Number of scenes.</strong><br/>
+
+The maximum number of scenes / steps in the sequencer was 15 in FreeStyler versions before 3.4.<br/>
+
+From version 3.4 the maximum number of scenes / steps in the sequencer is 45.<br/>
+
+The number can be changed in the file “freestyler.ini” which is in the freestyler folder.<br/>
+
+<br/>
+
+[NumberOfScenes]<br/>
+
+Number=45<br/>
+
+<br/>
+
+See eventually: <a href="../../setup:freestyler.ini.html" class="wikilink1" title="setup:freestyler.ini" data-wiki-id="setup:freestyler.ini">Editing the freestyler.ini file</a><br/>
+
+<br/>
+
+You can also download the “FS configuration tool” <a href="http://max-baeumle.de/fsconfigurationtool/setup.exe" class="urlextern" title="http://max-baeumle.de/fsconfigurationtool/setup.exe" rel="ugc nofollow">Click here to Download the FS configuration tool</a><br/>
+
+<br/>
+
+Disadvantages (please fill in if you know any):<br/>
+
+The FreeStyler statup time will be longer.<br/>
+
+
+</div><div class="plugin_note noteclassic"><strong>Color display on the screen doesn’t change for the fixture.</strong><br/>
+
+When running with a time shorter than 400, the small color display on each fixture will not change.<br/>
+
+This is intentional due to graphics handling on slow PCs.<br/>
+
+
+</div><div class="plugin_note noteclassic"><strong>Sequence / Cue overrides everything.</strong><br/>
+
+Check that the Sequence is made in “Transparent Mode” with not use faders in “Off” mode.<br/>
+
+
+</div><div class="plugin_note noteclassic"><strong>No Fixture control when creating a sequence.</strong><br/>
+
+If the “Cue” and “Sub Master” windows are open then there is no direct control over the fixture when you try to create a sequence.<br/>
+
+The “Sequence Editor” will show “Offline” and all fixture control will only be visible in the 3D Easy view.<br/>
+
+The reason for this is that it will then be possible to edit sequences during a show without disturbing the light running.<br/>
+
+<br/>
+
+<a href="../../_detail/sequence_editor:sequence_editor_offline_mode.jpg%3Fid=faq:troubleshooting.html" class="media" title="sequence_editor:sequence_editor_offline_mode.jpg"><img src="../../_media/sequence_editor:sequence_editor_offline_mode.jpg" class="media" loading="lazy" alt="" /></a><br/>
+
+<br/>
+
+If direct fixture control is wanted, close the “Sub Master” and “Cue” window.<br/>
+
+
+</div><div class="plugin_note noteclassic"><strong>Why does sequence editor add an extra scene to the sequence?</strong><br/>
+
+<br/>
+
+When the sequence editor is opened, the first scene is already added by default.<br/>
+
+If “+” is pressed, a new scene is added and if no changes are made after pressing “+” it will then be identical to the previous step.<br/>
+
+<br/>
+
+Example:<br/>
+
+1. Open sequence editor.<br/>
+
+2. Make changes.<br/>
+
+3. Press “+”<br/>
+
+4. Make new changes.<br/>
+
+5. Save the sequence.<br/>
+
+The sequence now contain 2 steps with different scenes.<br/>
+
+<br/>
+
+Most common error by beginners:<br/>
+
+1. Open sequence editor.<br/>
+
+2. Make changes.<br/>
+
+3. Press “+”<br/>
+
+4. Make new changes.<br/>
+
+5. Press “+”<br/>
+
+6. Save the sequence.<br/>
+
+<br/>
+
+The sequence now contains 3 steps.<br/>
+
+As no changes were made after pressing “+”, the two last steps are identical.<br/>
+
+<br/>
+
+“+” adds a new scene empty scene.<br/>
+
+If no changes are made it just adds an extra step in the sequence.<br/>
+
+This is not necessarily an error as in some cases this effect may be wanted.<br/>
+
+An example could be color where red is wanted for 1 step and yellow 9 steps.<br/>
+
+There, 2 steps are with change and 8 are without.<br/>
+
+
+</div>
+</div>
+
+<h4 id="submasters">Submasters</h4>
+<div class="level4">
+<div class="plugin_note noteclassic"><strong>Path not found</strong><br/>
+
+<br/>
+
+Trying to ”run” a cue in the submaster window and this message pops up.<br/>
+
+The fcf file that is loaded into Submaster selection window contains the path to the cue that is selected. If the cue filename or path is renamed, moved or in any way manipulated then this message will pop up.<br/>
+
+<br/>
+
+<a href="../../_detail/faq:sub_master_path_not_found.gif%3Fid=faq:troubleshooting.html" class="media" title="faq:sub_master_path_not_found.gif"><img src="../../_media/faq:sub_master_path_not_found.gif" class="media" loading="lazy" alt="" /></a>
+<a href="../../_detail/faq:sub_master_path_not_found_fcf.gif%3Fid=faq:troubleshooting.html" class="media" title="faq:sub_master_path_not_found_fcf.gif"><img src="../../_media/faq:sub_master_path_not_found_fcf.gif" class="media" loading="lazy" alt="" /></a>
+<br/>
+
+The fcf file has to be re-created or edited in a text editor to match the cue file.<br/>
+
+Here the “TB_Scan\Sine.chb” has to be correct.<br/>
+
+
+</div><div class="plugin_note noteclassic"><strong>My fixtures are blacked out when using Submasters - in the sequence editor everything works fine</strong><br/>
+
+<br/>
+
+On the right of each sm is a slider. This is the sm intensity. For the most part you won&#039;t need it but any attribute like the &#039;lamp&#039; that is set to use intensity will need this to be on. It works like a dimmer - the higher it is the brighter the beam. To use it, place the mouse cursor over it and hold the left mouse button. Now you can drag the intensity up and down. You will notice that it turns blue.
+<p>
+<img src="../../_media/smfig10.png" class="media" loading="lazy" alt="" />
+<br/>
+
+See <a href="../../playback:submasters:using_cues_and_submaster.html" class="wikilink1" title="playback:submasters:using_cues_and_submaster" data-wiki-id="playback:submasters:using_cues_and_submaster">Using Cues and Submasters</a>
+</p>
+
+</div><div class="plugin_note noteclassic"><strong>The lights are doing some strange things when I adjust the SM fader to 0%.</strong><br/>
+
+<br/>
+
+The SM fade has a option “Fader Start / Stop Control” found under the cog wheel in the Sub master panel.<br/>
+
+This option switches off the sequences that are active on this Sub master fader when the fader is set to 0%.<br/>
+
+<br/>
+
+If “Restore values” in the cue option is checked on and saved with the cue then when the Sub master fader is set to 0% the previous values for the channel are restored, which may give some unwanted effects.<br/>
+
+
+</div>
+</div>
+
+<h4 id="dmx_400">DMX 400</h4>
+<div class="level4">
+<div class="plugin_note noteclassic"><strong>The fixture doesn’t react on DMX400.</strong><br/>
+
+The fixture must have a intensity channel or a RGB control to react on DMX400.<br/>
+
+If a dimmer pack is used as fixture then check that the fixture has been created with an intensity channel and if not then create a new fixture with intensity control.<br/>
+
+
+</div>
+</div>
+
+<h4 id="missing_windows">Missing windows</h4>
+<div class="level4">
+<div class="plugin_note noteclassic"><strong> Color, Gobo, Beam, Pan/Tilt, Lamp </strong>
+window(s) have disappeared<br/>
+
+This can happen if you have dragged one of the windows to a second screen<br/>
+
+<br/>
+
+You can reset all the windows: Go to Setup→Freestyler setup→Preferences→Extra options
+and press “Reset Window positions”<br/>
+
+Or, under “Window”, select “Reset Window positions”<br/>
+
+
+</div>
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Freestyler Features&quot;,&quot;hid&quot;:&quot;freestyler_features&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;32-11762&quot;} -->
+<h3 class="sectionedit3" id="freestyler_addons">Freestyler Addons</h3>
+<div class="level3">
+
+<p>
+No items<br/>
+
+</p>
+
+</div>
+
+<h4 id="external_control">External Control</h4>
+<div class="level4">
+
+</div>
+
+<h5 id="midi_controll">Midi Controll</h5>
+<div class="level5">
+<div class="plugin_note noteclassic"><strong>Midi control / Freestyler is becoming slow</strong><br/>
+
+ -This can happen if the drivers are not installed, so go and install the drivers from the Midi controller.<br/>
+
+ -It can also be caused by the Midi output - this means you&#039;re using USB1.0. To solve this, get USB2.0 or turn off the Midi output.<br/>
+
+
+</div><div class="plugin_note noteclassic"><strong>My midi device sends a velocity lower than 127</strong><br/>
+
+For FreeStyler to recognize a button press it is important that the velocity from the Midi device and Freestyler match each other.<br/>
+
+This can normally be alternated in the Midi device what velocity to send but it is also possible to change the trigger value in FreeStyler.
+In general it is preferable to do the velocity change in the Midi device because if it is done in FreeStyler it is a general change that affect all connected Midi devices.<br/>
+
+<br/>
+
+Go to the Freestyler directory, now open Freestyler.ini with a note pad.<br/>
+
+search for:<br/>
+
+<br/>
+
+[Midi]<br/>
+
+Triggervalue=127<br/>
+
+<br/>
+
+Here you can change the Trigger value<br/>
+
+
+</div>
+<p>
+<br/>
+
+</p>
+
+</div>
+
+<h5 id="wireless_remote_control">Wireless remote control</h5>
+<div class="level5">
+
+<p>
+<br/>
+
+</p>
+<div class="plugin_note noteclassic"><strong>Unable to connect</strong><br/>
+
+It can be a bit difficult to figure out what goes wrong if FreeStyler and the wireless device fail to connect. <br/>
+
+Mattotone has developed a small test tool which can help to figure out what is going wrong if they fail to connect. <br/>
+
+<br/>
+
+This tool is named “FreeStyler_Remote_Connection_Test” <a href="../../external_control:remote_connection_test.html" class="wikilink1" title="external_control:remote_connection_test" data-wiki-id="external_control:remote_connection_test">FreeStyler Remote Connection Test</a><br/>
+
+
+</div><div class="plugin_note noteclassic"><strong>Unable to reconnect / connect</strong><br/>
+
+Occasionally Freestyler will block incoming connections, due to a previous connection not disconnecting cleanly (i.e. Wi-Fi dropout).<br/>
+
+To resolve, right click on the connection icon and press “Disconnect all” <br/>
+
+<br/>
+
+<a href="../../_detail/external_control:remote_disconnect.jpg%3Fid=faq:troubleshooting.html" class="media" title="external_control:remote_disconnect.jpg"><img src="../../_media/external_control:remote_disconnect.jpg" class="media" loading="lazy" alt="" /></a><br/>
+
+
+</div>
+<p>
+<br/>
+
+</p>
+
+</div>
+
+<h5 id="touchscreen_ui2">Touchscreen UI2</h5>
+<div class="level5">
+
+<p>
+<br/>
+
+</p>
+
+</div>
+
+<h4 id="magic_3d_easy_view_scanlibrary">Magic 3D Easy View &amp; Scanlibrary</h4>
+<div class="level4">
+<div class="plugin_note noteclassic"><strong>Light doesn&#039;t react to the DMX out from FreeStyler.</strong><br/>
+
+1)Be sure that you selected the right fixture in Magic 3D.<br/>
+
+2)Did you select “Virtual interface” as your interface?<br/>
+
+
+</div><div class="plugin_note noteclassic"><strong>Magic 3D view runs very slowly</strong><br/>
+
+This can be caused by the resolution that 3DView works with. To change this, go to the Options then press “Resolution” and set it lower.
+
+</div><div class="plugin_note noteclassic"><strong>The lights don’t react as expected.</strong><br/>
+
+<br/>
+
+The fixtures in 3D Easy View are, as in FreeStyler, user created and so may have errors.<br/>
+
+FreeStyler fixtures and 3D Easy view fixtures are not the same.<br/>
+
+Try examining the fixture with “Scanlibrary Editor”<br/>
+
+
+</div>
+</div>
+
+<h4 id="fixture_creator">Fixture Creator</h4>
+<div class="level4">
+<div class="plugin_note noteclassic"><strong>Lamp Panel is not present in FreeStyler</strong><br/>
+
+<br/>
+
+If only strobe is present in the Lamp panel then the panel will not be present in FreeStyler<br/>
+
+There has to be either intensity or Shutter “Open” / “Closed” defined too.<br/>
+
+It can be necessary to add a dummy function on one of the channels.<br/>
+
+
+</div><div class="plugin_note noteclassic"><strong>Please fill in all Gobo values</strong><br/>
+
+This error message appears when one or more DMX values are missing in the gobo tab.<br/>
+
+If example “n’ gobos 1” is set to 3 then there are 3 gobos on the “Gobo 1” tab. These 3 gobos must have a value.<br/>
+
+If they don’t have a DMX value then it is not possible to save the fixture.<br/>
+
+If Gobo wheel 2 or 3 is defined then it is the same for them.<br/>
+
+Check that all values are entered on the Gobo wheel tabs.<br/>
+
+<a href="../../fixture_creator:gobo_configuration.html" class="wikilink1" title="fixture_creator:gobo_configuration" data-wiki-id="fixture_creator:gobo_configuration">Fixture Creator - Gobo configuration</a><br/>
+
+
+</div>
+</div>
+
+<h4 id="sound_to_light">Sound To Light</h4>
+<div class="level4">
+
+<p>
+No items<br/>
+
+</p>
+
+</div>
+
+<h4 id="suntrix_ledtrix_plugins">SunTriX &amp; LedTriX plugins</h4>
+<div class="level4">
+<div class="plugin_note noteclassic"><strong>Animation image doesn&#039;t shift</strong><br/>
+
+From time to time this issue pops up.<br/>
+
+One problem could be that the program does not support Unicode.<br/>
+
+<br/>
+
+Go to “Control Panel” → “Region and Language” → tab “Administrative” →<br/>
+
+<br/>
+
+In section “Language for non-Unicode programs” click “Change the system locale” and set “English (United Kingdom)” or US.<br/>
+
+<br/>
+
+Or use this. <a href="https://github.com/xupefei/Locale-Emulator" class="urlextern" title="https://github.com/xupefei/Locale-Emulator" rel="ugc nofollow">https://github.com/xupefei/Locale-Emulator</a><br/>
+
+
+</div>
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Freestyler Addons&quot;,&quot;hid&quot;:&quot;freestyler_addons&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:3,&quot;range&quot;:&quot;11763-15635&quot;} -->
+<h3 class="sectionedit4" id="dmx">DMX</h3>
+<div class="level3">
+<div class="plugin_note noteclassic">When you know that FreeStyler does the right thing and the fixtures behave strangely then it is time to isolate the problem with some systematic fault finding.<br/>
+
+<a href="../../dmx_basics:dmx_fault_finding.html" class="wikilink1" title="dmx_basics:dmx_fault_finding" data-wiki-id="dmx_basics:dmx_fault_finding">DMX Fault finding</a><br/>
+
+
+</div><div class="plugin_note noteclassic">DMX addresses: How to set them can be found here. <a href="../../dmx_basics:dmx_how_to_set_addresses.html" class="wikilink1" title="dmx_basics:dmx_how_to_set_addresses" data-wiki-id="dmx_basics:dmx_how_to_set_addresses">DMX How to set the addresses on the fixtures</a><br/>
+
+If a fixture reacts wrong on the fixture control fader then there may be an address overlap. <a href="../../dmx_basics:dmx_addresses.html" class="wikilink1" title="dmx_basics:dmx_addresses" data-wiki-id="dmx_basics:dmx_addresses">DMX Addresses.</a><br/>
+
+
+</div><div class="plugin_note noteclassic">In some rare cases you have your Unicode different than US.<br/>
+
+Asian languages use 2 bytes to represent a character, English just 1. Sending data to the com port will cause problems when value gets higher than 127.<br/>
+
+Maybe this can help you out: <a href="http://markcz.wordpress.com/2009/07/10/multiple-language-for-non-unicode-programs-settings-on-one-computer/" class="urlextern" title="http://markcz.wordpress.com/2009/07/10/multiple-language-for-non-unicode-programs-settings-on-one-computer/" rel="ugc nofollow">http://markcz.wordpress.com/2009/07/10/multiple-language-for-non-unicode-programs-settings-on-one-computer/</a> <br/>
+
+
+</div><hr />
+
+<p>
+<br/>
+
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;DMX&quot;,&quot;hid&quot;:&quot;dmx&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:4,&quot;range&quot;:&quot;15636-&quot;} -->
+<!-- cachefile /var/www/vhosts/freestylersupport.com/httpdocs/wiki/data/cache/c/c4551c92128064a021a033e1806c4f6b.xhtml used -->
+</div>
+</body>
+</html>

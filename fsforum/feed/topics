@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="https://www.freestylersupport.com/fsforum/feed/topics" />
+
+	<title>Support Forum</title>
+	<subtitle>Get help and support from the community and the most latest FS news and downloads!</subtitle>
+	<link href="https://www.freestylersupport.com/fsforum/index.php" />
+	<updated>2024-04-25T19:43:21+01:00</updated>
+
+	<author><name><![CDATA[Support Forum]]></name></author>
+	<id>https://www.freestylersupport.com/fsforum/feed/topics</id>
+
+		<entry>
+		<author><name><![CDATA[magic]]></name></author>
+		<updated>2024-04-25T19:43:21+01:00</updated>
+
+		<published>2024-04-25T19:43:21+01:00</published>
+		<id>https://www.freestylersupport.com/fsforum/viewtopic.php?p=36373#p36373</id>
+		<link href="https://www.freestylersupport.com/fsforum/viewtopic.php?p=36373#p36373"/>
+		<title type="html"><![CDATA[FreeStyler Software • Why do the Bezier shapes stop moving when using cue?]]></title>
+
+					<category term="FreeStyler Software" scheme="https://www.freestylersupport.com/fsforum/viewforum.php?f=6" label="FreeStyler Software"/>
+		
+		<content type="html" xml:base="https://www.freestylersupport.com/fsforum/viewtopic.php?p=36373#p36373"><![CDATA[
+Rather simple question:<br><br>Why do the Bezier shapes stop moving when using a cue? Yes I do understand that when the cue would contain the pan and tilt of the fixture that is using the Bezier shape. But I really would like to use the Bezier shapes when playing other non Bezier shape related cues.<p>Statistics: Posted by <a href="https://www.freestylersupport.com/fsforum/memberlist.php?mode=viewprofile&amp;u=172">magic</a> — April 25th, 2024, 7:43 pm — Replies 0 — Views 23</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Geert1903]]></name></author>
+		<updated>2024-04-24T12:11:56+01:00</updated>
+
+		<published>2024-04-24T12:11:56+01:00</published>
+		<id>https://www.freestylersupport.com/fsforum/viewtopic.php?p=36372#p36372</id>
+		<link href="https://www.freestylersupport.com/fsforum/viewtopic.php?p=36372#p36372"/>
+		<title type="html"><![CDATA[FreeStyler Fixture Files - Fixture Requests • mac 250 m4 file]]></title>
+
+					<category term="FreeStyler Fixture Files - Fixture Requests" scheme="https://www.freestylersupport.com/fsforum/viewforum.php?f=79" label="FreeStyler Fixture Files - Fixture Requests"/>
+		
+		<content type="html" xml:base="https://www.freestylersupport.com/fsforum/viewtopic.php?p=36372#p36372"><![CDATA[
+does anyone have martin mac 250 m4 file?<p>Statistics: Posted by <a href="https://www.freestylersupport.com/fsforum/memberlist.php?mode=viewprofile&amp;u=22254">Geert1903</a> — April 24th, 2024, 12:11 pm — Replies 0 — Views 24</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[michelkeijzers]]></name></author>
+		<updated>2024-04-18T16:45:18+01:00</updated>
+
+		<published>2024-04-18T16:45:18+01:00</published>
+		<id>https://www.freestylersupport.com/fsforum/viewtopic.php?p=36362#p36362</id>
+		<link href="https://www.freestylersupport.com/fsforum/viewtopic.php?p=36362#p36362"/>
+		<title type="html"><![CDATA[Magic 3D Easy View • How/where to assign channels to RGB panels?]]></title>
+
+					<category term="Magic 3D Easy View" scheme="https://www.freestylersupport.com/fsforum/viewforum.php?f=56" label="Magic 3D Easy View"/>
+		
+		<content type="html" xml:base="https://www.freestylersupport.com/fsforum/viewtopic.php?p=36362#p36362"><![CDATA[
+I'm new to Magic 3D, so please be gentle with me <img class="smilies" src="https://www.freestylersupport.com/fsforum/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":-)" title="Smile">.<br><br>I want to add a Stairville LED BAR 252 RB which is already available.<br>It is a 3 Light beam object, which is correct.<br><br>However, when I see it in Magic 3D, and connect sliders to it (with OSC via GigPerformer, but that is not so important), then I see the strobe working and the color.<br>However, the entire bar only has one color. <br>It seems the parameters Red1, Red2 and Red3 are like summed up, together with the blue and green parameters and show a single rectangular panel with just one color, instead of 3 what I would expect.<br><br>Is there a mistake in the fixture definition? (I didn't change it).<br>Or is it a problem within Magic 3D?<br>How can I get all three panels to respond to their own channels only?<br><br>Thanks in advance.<p>Statistics: Posted by <a href="https://www.freestylersupport.com/fsforum/memberlist.php?mode=viewprofile&amp;u=30762">michelkeijzers</a> — April 18th, 2024, 4:45 pm — Replies 0 — Views 34</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[raphasicro]]></name></author>
+		<updated>2024-04-16T15:25:06+01:00</updated>
+
+		<published>2024-04-16T15:25:06+01:00</published>
+		<id>https://www.freestylersupport.com/fsforum/viewtopic.php?p=36359#p36359</id>
+		<link href="https://www.freestylersupport.com/fsforum/viewtopic.php?p=36359#p36359"/>
+		<title type="html"><![CDATA[FreeStyler Software • MIDI CONNTROL - M-VAVE SMC-MIXER]]></title>
+
+					<category term="FreeStyler Software" scheme="https://www.freestylersupport.com/fsforum/viewforum.php?f=6" label="FreeStyler Software"/>
+		
+		<content type="html" xml:base="https://www.freestylersupport.com/fsforum/viewtopic.php?p=36359#p36359"><![CDATA[
+Hello! <br>This is my first post.<br><br>I would like to know if the M-VAVE SMC-MIXER would work on freestyler.<br>As it is a midi controller, I thought about this possibility.<br><br>As I only found information related to audio programs, I'm not sure whether to buy it to test it or not.<br><br>Could you tell if it would work? I would use the faders to control colors or the equipment/group dimmer.<br><br>Thanks!<p>Statistics: Posted by <a href="https://www.freestylersupport.com/fsforum/memberlist.php?mode=viewprofile&amp;u=29952">raphasicro</a> — April 16th, 2024, 3:25 pm — Replies 1 — Views 16302</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[raphasicro]]></name></author>
+		<updated>2024-04-16T15:23:35+01:00</updated>
+
+		<published>2024-04-16T15:23:35+01:00</published>
+		<id>https://www.freestylersupport.com/fsforum/viewtopic.php?p=36358#p36358</id>
+		<link href="https://www.freestylersupport.com/fsforum/viewtopic.php?p=36358#p36358"/>
+		<title type="html"><![CDATA[General Midi Controllers • MIDI CONNTROL - M-VAVE SMC-MIXER]]></title>
+
+					<category term="General Midi Controllers" scheme="https://www.freestylersupport.com/fsforum/viewforum.php?f=19" label="General Midi Controllers"/>
+		
+		<content type="html" xml:base="https://www.freestylersupport.com/fsforum/viewtopic.php?p=36358#p36358"><![CDATA[
+Hello! <br>This is my first post.<br><br>I would like to know if the M-VAVE SMC-MIXER would work on freestyler.<br>As it is a midi controller, I thought about this possibility.<br><br>As I only found information related to audio programs, I'm not sure whether to buy it to test it or not.<br><br>Could you tell if it would work? I would use the faders to control colors or the equipment/group dimmer.<br><br>Thanks!<p>Statistics: Posted by <a href="https://www.freestylersupport.com/fsforum/memberlist.php?mode=viewprofile&amp;u=29952">raphasicro</a> — April 16th, 2024, 3:23 pm — Replies 0 — Views 37</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DJ Foryou]]></name></author>
+		<updated>2024-04-07T14:22:01+01:00</updated>
+
+		<published>2024-04-07T14:22:01+01:00</published>
+		<id>https://www.freestylersupport.com/fsforum/viewtopic.php?p=36351#p36351</id>
+		<link href="https://www.freestylersupport.com/fsforum/viewtopic.php?p=36351#p36351"/>
+		<title type="html"><![CDATA[FreeStyler Fixture Files - Help &amp; Support • Fixture 75 led spot]]></title>
+
+					<category term="FreeStyler Fixture Files - Help &amp; Support" scheme="https://www.freestylersupport.com/fsforum/viewforum.php?f=8" label="FreeStyler Fixture Files - Help &amp; Support"/>
+		
+		<content type="html" xml:base="https://www.freestylersupport.com/fsforum/viewtopic.php?p=36351#p36351"><![CDATA[
+Bonjour,<br>J'aurai besoin d'une fixture pour mes lyres Phantom 75 led spot de chez Showtec. <br>étant novice dans la fabrication d'une fixture je n'arrive pas à la créer...<br><br>Déjà un grand merci pour la personne.<br>DJ Foryou<p>Statistics: Posted by <a href="https://www.freestylersupport.com/fsforum/memberlist.php?mode=viewprofile&amp;u=30740">DJ Foryou</a> — April 7th, 2024, 2:22 pm — Replies 4 — Views 100</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Itsjustkyleiguess]]></name></author>
+		<updated>2024-03-23T03:24:02+01:00</updated>
+
+		<published>2024-03-23T03:24:02+01:00</published>
+		<id>https://www.freestylersupport.com/fsforum/viewtopic.php?p=36346#p36346</id>
+		<link href="https://www.freestylersupport.com/fsforum/viewtopic.php?p=36346#p36346"/>
+		<title type="html"><![CDATA[FreeStyler Software • &quot;Subscript out of Range&quot; Error]]></title>
+
+					<category term="FreeStyler Software" scheme="https://www.freestylersupport.com/fsforum/viewforum.php?f=6" label="FreeStyler Software"/>
+		
+		<content type="html" xml:base="https://www.freestylersupport.com/fsforum/viewtopic.php?p=36346#p36346"><![CDATA[
+Hello,<br><br>I'm diving into DMX lighting headfirst with no prior experience and I'm having some issues that the forum has been unhelpful with in past posts.<br><br>I keep receiving the "Subscript out of Range" Error when trying to play a cue after I have added the sequence.<br><br>I have looked at the forum posts on it and I have followed their suggestions (uninstall/reinstall, Uninstall/reinstall hardware, etc.) but I am still receiving the same error after following said instructions. <br><br>Here Is the Hardware and Software I am using:<br><br>Software Version: Freestyler 4.1.6<br>Fixture : DJ Chauvet COLORband T3BT (Custom fixture added into software)<br>Interface: Enttec Open DMX USB 70303<br>MIDI Driver: LoopBe1<br>DAW: Reaper v7.11<br><br>According to the patch notes, it looks like this was a bug that was patched some time ago, so i don't know if it's still a bug or if I'm doing something wrong to cause this error.<br><br>I am able to control the lights with the software, but I am only running into the issue when I attempt to play the sequence, not at any other time.<br><br>any assistance would be most helpful.<br><br>Thank you,<p>Statistics: Posted by <a href="https://www.freestylersupport.com/fsforum/memberlist.php?mode=viewprofile&amp;u=30667">Itsjustkyleiguess</a> — March 23rd, 2024, 2:24 am — Replies 0 — Views 418</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[lightman1990]]></name></author>
+		<updated>2024-03-22T23:39:10+01:00</updated>
+
+		<published>2024-03-22T23:39:10+01:00</published>
+		<id>https://www.freestylersupport.com/fsforum/viewtopic.php?p=36344#p36344</id>
+		<link href="https://www.freestylersupport.com/fsforum/viewtopic.php?p=36344#p36344"/>
+		<title type="html"><![CDATA[FreeStyler Software • How to manage strobe of fixture]]></title>
+
+					<category term="FreeStyler Software" scheme="https://www.freestylersupport.com/fsforum/viewforum.php?f=6" label="FreeStyler Software"/>
+		
+		<content type="html" xml:base="https://www.freestylersupport.com/fsforum/viewtopic.php?p=36344#p36344"><![CDATA[
+I have MH fixtures. Created the fixture my self because it are china one's. When i set the shutter to a random value, the beam responds by start shuttering (slow -- fast). When i set the chanel value to 0, the fixture keeps shuttering very slow!. <br><br>I need to go "lamp" and set shutter to off to stop shuttering. How can i configure so that chanel value 0 stops shuttering or is this not intended? An alternative would be a way to set shutter to off from the touch interface and midi panel, how can i do that?<p>Statistics: Posted by <a href="https://www.freestylersupport.com/fsforum/memberlist.php?mode=viewprofile&amp;u=17024">lightman1990</a> — March 22nd, 2024, 10:39 pm — Replies 1 — Views 403</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[lightman1990]]></name></author>
+		<updated>2024-03-22T23:31:52+01:00</updated>
+
+		<published>2024-03-22T23:31:52+01:00</published>
+		<id>https://www.freestylersupport.com/fsforum/viewtopic.php?p=36343#p36343</id>
+		<link href="https://www.freestylersupport.com/fsforum/viewtopic.php?p=36343#p36343"/>
+		<title type="html"><![CDATA[FreeStyler Software • Unlink the chase speed from submasters]]></title>
+
+					<category term="FreeStyler Software" scheme="https://www.freestylersupport.com/fsforum/viewforum.php?f=6" label="FreeStyler Software"/>
+		
+		<content type="html" xml:base="https://www.freestylersupport.com/fsforum/viewtopic.php?p=36343#p36343"><![CDATA[
+I have 2 submasters. One controlls the dimmer (and dimmer effects) of the MH's (SM1) and the other of the PAR's (SM2). When i change the dimmer effect of the MH's, e.g. from "full on" to "odd on off", the chase speed of the SM2 is resetted to 100%. <br><br>I don't want that chase speed is effected at all when i switch to another sequence inside a submaster. (hope i understand this correctly and use the correct terms)<br><br>I already tried to play with functions like "ignore masterspeed" and "do not restore channels" ???<br><br><img src="https://i.imgur.com/SOwP6ly.png" class="postimage" alt="Image"><p>Statistics: Posted by <a href="https://www.freestylersupport.com/fsforum/memberlist.php?mode=viewprofile&amp;u=17024">lightman1990</a> — March 22nd, 2024, 10:31 pm — Replies 1 — Views 561</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[mikyzivotic]]></name></author>
+		<updated>2024-03-22T00:52:36+01:00</updated>
+
+		<published>2024-03-22T00:52:36+01:00</published>
+		<id>https://www.freestylersupport.com/fsforum/viewtopic.php?p=36339#p36339</id>
+		<link href="https://www.freestylersupport.com/fsforum/viewtopic.php?p=36339#p36339"/>
+		<title type="html"><![CDATA[FreeStyler Fixture Files - Help &amp; Support • Help Fixture my ligh show]]></title>
+
+					<category term="FreeStyler Fixture Files - Help &amp; Support" scheme="https://www.freestylersupport.com/fsforum/viewforum.php?f=8" label="FreeStyler Fixture Files - Help &amp; Support"/>
+		
+		<content type="html" xml:base="https://www.freestylersupport.com/fsforum/viewtopic.php?p=36339#p36339"><![CDATA[
+Hello friends, I have recently acquired some devices that I would use through Freestyler, the store did not want to help me arrange them for this program, so if someone wants to be of good will to do it for me, I will set the seeds for certain effects for which I am looking for arranged profiles.<br>My email : <a href="mailto:Mikyzivotic@gmail.com">Mikyzivotic@gmail.com</a><p>Statistics: Posted by <a href="https://www.freestylersupport.com/fsforum/memberlist.php?mode=viewprofile&amp;u=30699">mikyzivotic</a> — March 21st, 2024, 11:52 pm — Replies 4 — Views 591</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[matys1701]]></name></author>
+		<updated>2024-03-12T10:08:23+01:00</updated>
+
+		<published>2024-03-12T10:08:23+01:00</published>
+		<id>https://www.freestylersupport.com/fsforum/viewtopic.php?p=36333#p36333</id>
+		<link href="https://www.freestylersupport.com/fsforum/viewtopic.php?p=36333#p36333"/>
+		<title type="html"><![CDATA[FreeStyler Fixture Files - Help &amp; Support • Fixture.ID - fixture search tool (like onyx fixture finder)]]></title>
+
+					<category term="FreeStyler Fixture Files - Help &amp; Support" scheme="https://www.freestylersupport.com/fsforum/viewforum.php?f=8" label="FreeStyler Fixture Files - Help &amp; Support"/>
+		
+		<content type="html" xml:base="https://www.freestylersupport.com/fsforum/viewtopic.php?p=36333#p36333"><![CDATA[
+Hi, as lighting designer and operator I often had to deal with unknown fixtures. To find right profile for there fixtures I've been using onyx fixture finder as it was working the best. Sadly the website has been shut down. That's why I spend some time to create new service called <a href="fixture.id" class="postlink">fixture.id</a> . It is new service to find fixture files for different kinds of software. Website is and will remain free and there will be no ads. I’m planning to add fixture upload features and more..  Let me know what do you think and what would you like to improve. Thanks <img alt="😊" class="emoji smilies" draggable="false" src="//cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f60a.svg"> <a href="https://fixture.id" class="postlink">https://fixture.id</a><p>Statistics: Posted by <a href="https://www.freestylersupport.com/fsforum/memberlist.php?mode=viewprofile&amp;u=15931">matys1701</a> — March 12th, 2024, 9:08 am — Replies 0 — Views 413</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[matys1701]]></name></author>
+		<updated>2024-03-12T10:03:02+01:00</updated>
+
+		<published>2024-03-12T10:03:02+01:00</published>
+		<id>https://www.freestylersupport.com/fsforum/viewtopic.php?p=36332#p36332</id>
+		<link href="https://www.freestylersupport.com/fsforum/viewtopic.php?p=36332#p36332"/>
+		<title type="html"><![CDATA[FreeStyler Fixture Files - Fixture Requests • Fixture.ID - fixture search tool (like onyx fixture finder)]]></title>
+
+					<category term="FreeStyler Fixture Files - Fixture Requests" scheme="https://www.freestylersupport.com/fsforum/viewforum.php?f=79" label="FreeStyler Fixture Files - Fixture Requests"/>
+		
+		<content type="html" xml:base="https://www.freestylersupport.com/fsforum/viewtopic.php?p=36332#p36332"><![CDATA[
+Hi, as lighting designer and operator I often had to deal with unknown fixtures. To find right profile for there fixtures I've been using onyx fixture finder as it was working the best. Sadly the website has been shut down. That's why I spend some time to create new service called <a href="fixture.id" class="postlink">fixture.id</a> . It is new service to find fixture files for different kinds of software. Website is and will remain free and there will be no ads. I’m planning to add fixture upload features and more..  Let me know what do you think and what would you like to improve. Thanks <img alt="😊" class="emoji smilies" draggable="false" src="//cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f60a.svg"> <a href="https://fixture.id" class="postlink">https://fixture.id</a><p>Statistics: Posted by <a href="https://www.freestylersupport.com/fsforum/memberlist.php?mode=viewprofile&amp;u=15931">matys1701</a> — March 12th, 2024, 9:03 am — Replies 0 — Views 51526</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Djpa3k]]></name></author>
+		<updated>2024-04-20T10:11:43+01:00</updated>
+
+		<published>2024-03-06T13:14:08+01:00</published>
+		<id>https://www.freestylersupport.com/fsforum/viewtopic.php?p=36329#p36329</id>
+		<link href="https://www.freestylersupport.com/fsforum/viewtopic.php?p=36329#p36329"/>
+		<title type="html"><![CDATA[iOS (iPhone &amp; iPad) • iPad/iPhone app 2024: OUT NOW]]></title>
+
+					<category term="iOS (iPhone &amp; iPad)" scheme="https://www.freestylersupport.com/fsforum/viewforum.php?f=87" label="iOS (iPhone &amp; iPad)"/>
+		
+		<content type="html" xml:base="https://www.freestylersupport.com/fsforum/viewtopic.php?p=36329#p36329"><![CDATA[
+UPDATE 20.4.2024:<br><br>Download at: <a href="https://apps.apple.com/sk/app/freestyler-dmx-remote/id6498928051?l=sk" class="postlink">https://apps.apple.com/sk/app/freestyle ... 28051?l=sk</a><br><br><br>Hi,<br><br>I have remote application for my own use.<br> I can publish it for the store if you are interested. <br>Can someone help to test?<br><ul><li>support ios 17 and later</li><li>selection fixtures by group</li><li>main functionality as blackout, freeze, fog...</li><li>pan/tilt</li><li>color change</li><li>cue list with speed</li><li>submasters</li><li>ovrd buttons</li></ul>I will add additional functionality upon request<p>Statistics: Posted by <a href="https://www.freestylersupport.com/fsforum/memberlist.php?mode=viewprofile&amp;u=30570">Djpa3k</a> — March 6th, 2024, 12:14 pm — Replies 4 — Views 1721</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Djpa3k]]></name></author>
+		<updated>2024-03-01T00:49:11+01:00</updated>
+
+		<published>2024-03-01T00:49:11+01:00</published>
+		<id>https://www.freestylersupport.com/fsforum/viewtopic.php?p=36327#p36327</id>
+		<link href="https://www.freestylersupport.com/fsforum/viewtopic.php?p=36327#p36327"/>
+		<title type="html"><![CDATA[FreeStyler 3rd Party Addons and utilities • Select some fixtures with ASCII TCP/IP]]></title>
+
+					<category term="FreeStyler 3rd Party Addons and utilities" scheme="https://www.freestylersupport.com/fsforum/viewforum.php?f=38" label="FreeStyler 3rd Party Addons and utilities"/>
+		
+		<content type="html" xml:base="https://www.freestylersupport.com/fsforum/viewtopic.php?p=36327#p36327"><![CDATA[
+Hi,<br><br>i want select with tcp/ip some individual fixtures<br>I can select by group, by odd/even, i can get status selected/unselected<br>But, how i select eg. first and last fixture? <br>I see video with android app (who can do it) but i dont have android device, only ios device. <br><br>Thnx<p>Statistics: Posted by <a href="https://www.freestylersupport.com/fsforum/memberlist.php?mode=viewprofile&amp;u=30570">Djpa3k</a> — February 29th, 2024, 11:49 pm — Replies 1 — Views 47717</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[maztajay]]></name></author>
+		<updated>2024-02-28T10:14:02+01:00</updated>
+
+		<published>2024-02-28T10:14:02+01:00</published>
+		<id>https://www.freestylersupport.com/fsforum/viewtopic.php?p=36325#p36325</id>
+		<link href="https://www.freestylersupport.com/fsforum/viewtopic.php?p=36325#p36325"/>
+		<title type="html"><![CDATA[FreeStyler Software • Touchscreen Slider resize]]></title>
+
+					<category term="FreeStyler Software" scheme="https://www.freestylersupport.com/fsforum/viewforum.php?f=6" label="FreeStyler Software"/>
+		
+		<content type="html" xml:base="https://www.freestylersupport.com/fsforum/viewtopic.php?p=36325#p36325"><![CDATA[
+HI Guys how do i resize the slider that i added on touchscreen UI i wanna make it bigger slider and buttons too ?<p>Statistics: Posted by <a href="https://www.freestylersupport.com/fsforum/memberlist.php?mode=viewprofile&amp;u=29655">maztajay</a> — February 28th, 2024, 9:14 am — Replies 0 — Views 441</p><hr />
+]]></content>
+	</entry>
+	</feed>
